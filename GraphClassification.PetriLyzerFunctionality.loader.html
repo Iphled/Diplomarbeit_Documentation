@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>GraphClassification.PetriLyzerFunctionality.loader package &#8212; PetriLyzer  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=47202671" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=fce32b03" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="GraphClassification.PetriLyzerFunctionality.test package" href="GraphClassification.PetriLyzerFunctionality.test.html" />
+    <link rel="prev" title="GraphClassification.PetriLyzerFunctionality package" href="GraphClassification.PetriLyzerFunctionality.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>PetriLyzer  documentation</span></a></h1>
+        <h2 class="heading"><span>GraphClassification.PetriLyzerFunctionality.loader package</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="Top">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PetriLyzerFunctionality.html">GraphClassification.PetriLyzerFunctionality package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PetriLyzerFunctionality.test.html">GraphClassification.PetriLyzerFunctionality.test package</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="graphclassification-petrilyzerfunctionality-loader-package">
+<h1>GraphClassification.PetriLyzerFunctionality.loader package<a class="headerlink" href="#graphclassification-petrilyzerfunctionality-loader-package" title="Link to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader">
+<span id="graphclassification-petrilyzerfunctionality-loader-certificationloader-module"></span><h2>GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.loadCertificate">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.</span></span><span class="sig-name descname"><span class="pre">loadCertificate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.loadCertificate" title="Link to this definition">¶</a></dt>
+<dd><p>Loads a certification from a pickle file.</p>
+<section id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>filename: str</dt><dd><p>The path to the file to load. If not given, the user is asked to
+select a file.</p>
+</dd>
+</dl>
+</section>
+<section id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>Certificate</dt><dd><p>The loaded certification, or None if the user canceled the file dialog.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.saveCertificate">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.</span></span><span class="sig-name descname"><span class="pre">saveCertificate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">certificate</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.saveCertificate" title="Link to this definition">¶</a></dt>
+<dd><p>Saves a certification to a pickle file.</p>
+<section id="id1">
+<h3>Parameters<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>certificate: Certificate</dt><dd><p>The certification to save.</p>
+</dd>
+</dl>
+</section>
+<section id="id2">
+<h3>Returns<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader">
+<span id="graphclassification-petrilyzerfunctionality-loader-petrinetloader-module"></span><h2>GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.classificationToText">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.</span></span><span class="sig-name descname"><span class="pre">classificationToText</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">classificationNet</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classificationGoal</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classificationResult</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classificationReason</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.classificationToText" title="Link to this definition">¶</a></dt>
+<dd><p>Writes a classification result to a PDF file.</p>
+<section id="id3">
+<h3>Parameters<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>classificationNet<span class="classifier">tuple</span></dt><dd><p>The Petri net, its initial marking, and its final marking.</p>
+</dd>
+<dt>classificationGoal<span class="classifier">str</span></dt><dd><p>The name of the classification goal.</p>
+</dd>
+<dt>classificationResult<span class="classifier">str</span></dt><dd><p>The result of the classification.</p>
+</dd>
+<dt>classificationReason<span class="classifier">str</span></dt><dd><p>The reason why the classification was made.</p>
+</dd>
+<dt>file<span class="classifier">str</span></dt><dd><p>The name of the PDF file to write to.</p>
+</dd>
+</dl>
+</section>
+<section id="id4">
+<h3>Returns<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.displayPetrinetPDF">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.</span></span><span class="sig-name descname"><span class="pre">displayPetrinetPDF</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">net</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_marking</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">final_marking</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">canvas</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Canvas</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">window_width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">window_height</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.displayPetrinetPDF" title="Link to this definition">¶</a></dt>
+<dd><p>Displays a Petri net as a PNG image in a PDF canvas.</p>
+<section id="id5">
+<h3>Parameters<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>net<span class="classifier">pm4py.objects.petri_net.petrinet.PetriNet</span></dt><dd><p>The Petri net to display</p>
+</dd>
+<dt>initial_marking<span class="classifier">pm4py.objects.petri_net.marking.Marking</span></dt><dd><p>The initial marking of the Petri net</p>
+</dd>
+<dt>final_marking<span class="classifier">pm4py.objects.petri_net.marking.Marking</span></dt><dd><p>The final marking of the Petri net</p>
+</dd>
+<dt>canvas<span class="classifier">reportlab.pdfgen.canvas.Canvas</span></dt><dd><p>The PDF canvas to draw in</p>
+</dd>
+<dt>window_width<span class="classifier">int</span></dt><dd><p>The width of the area to draw in</p>
+</dd>
+<dt>window_height<span class="classifier">int</span></dt><dd><p>The height of the area to draw in</p>
+</dd>
+</dl>
+</section>
+<section id="id6">
+<h3>Returns<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>height<span class="classifier">int</span></dt><dd><p>The height of the drawn image</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.loadPetrinetFromFile">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.</span></span><span class="sig-name descname"><span class="pre">loadPetrinetFromFile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.loadPetrinetFromFile" title="Link to this definition">¶</a></dt>
+<dd><p>Loads a Petri net from a file.</p>
+<section id="id7">
+<h3>Parameters<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>filename: str</dt><dd><p>The name of the file to load.</p>
+</dd>
+</dl>
+</section>
+<section id="id8">
+<h3>Returns<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>net<span class="classifier">pm4py.objects.petri_net.petrinet.PetriNet</span></dt><dd><p>The Petri net</p>
+</dd>
+<dt>initial_marking<span class="classifier">pm4py.objects.petri_net.marking.Marking</span></dt><dd><p>The initial marking of the Petri net</p>
+</dd>
+<dt>final_marking<span class="classifier">pm4py.objects.petri_net.marking.Marking</span></dt><dd><p>The final marking of the Petri net</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.petrinetToGraph">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.</span></span><span class="sig-name descname"><span class="pre">petrinetToGraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">net</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_marking</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">final_marking</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.petrinetToGraph" title="Link to this definition">¶</a></dt>
+<dd><p>Converts a Petri net into a graph format.</p>
+<section id="id9">
+<h3>Parameters<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>net<span class="classifier">pm4py.objects.petri_net.petrinet.PetriNet</span></dt><dd><p>The Petri net to convert</p>
+</dd>
+<dt>initial_marking<span class="classifier">pm4py.objects.petri_net.marking.Marking</span></dt><dd><p>The initial marking of the Petri net</p>
+</dd>
+<dt>final_marking<span class="classifier">pm4py.objects.petri_net.marking.Marking</span></dt><dd><p>The final marking of the Petri net</p>
+</dd>
+</dl>
+</section>
+<section id="id10">
+<h3>Returns<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>graph<span class="classifier">PetrinetGraph</span></dt><dd><p>The Petri net in graph format</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.saveClassification">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.</span></span><span class="sig-name descname"><span class="pre">saveClassification</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">classificationNet</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classificationGoal</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classificationResult</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classificationReason</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.saveClassification" title="Link to this definition">¶</a></dt>
+<dd><p>Saves a classification result to a PDF file.</p>
+<section id="id11">
+<h3>Parameters<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>classificationNet<span class="classifier">tuple</span></dt><dd><p>The Petri net, its initial marking, and its final marking.</p>
+</dd>
+<dt>classificationGoal<span class="classifier">str</span></dt><dd><p>The name of the classification goal.</p>
+</dd>
+<dt>classificationResult<span class="classifier">str</span></dt><dd><p>The result of the classification.</p>
+</dd>
+<dt>classificationReason<span class="classifier">str</span></dt><dd><p>The reason why the classification was made.</p>
+</dd>
+</dl>
+</section>
+<section id="id12">
+<h3>Returns<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.loader">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.loader" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="Bottom">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PetriLyzerFunctionality.html">GraphClassification.PetriLyzerFunctionality package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PetriLyzerFunctionality.test.html">GraphClassification.PetriLyzerFunctionality.test package</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Julia Rennert.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

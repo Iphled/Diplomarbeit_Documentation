@@ -1,0 +1,37 @@
+GraphClassification.PetriLyzerFunctionality.util.certification package
+======================================================================
+
+Submodules
+----------
+
+GraphClassification.PetriLyzerFunctionality.util.certification.Certificate module
+---------------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.certification.Certificate
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL module
+---------------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate module
+--------------------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.certification
+   :members:
+   :show-inheritance:
+   :undoc-members:

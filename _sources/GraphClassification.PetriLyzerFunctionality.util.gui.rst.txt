@@ -1,0 +1,37 @@
+GraphClassification.PetriLyzerFunctionality.util.gui package
+============================================================
+
+Submodules
+----------
+
+GraphClassification.PetriLyzerFunctionality.util.gui.Display module
+-------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.gui.Display
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PetriLyzerFunctionality.util.gui.GUI\_geometry module
+-------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame module
+------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.gui
+   :members:
+   :show-inheritance:
+   :undoc-members:

@@ -1,0 +1,70 @@
+GraphClassification.PL4XGLFunctionality package
+===============================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   GraphClassification.PL4XGLFunctionality.synthesis
+   GraphClassification.PL4XGLFunctionality.util
+
+Submodules
+----------
+
+GraphClassification.PL4XGLFunctionality.connected module
+--------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.connected
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PL4XGLFunctionality.data\_loader module
+-----------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.data_loader
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PL4XGLFunctionality.eval\_single module
+-----------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.eval_single
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PL4XGLFunctionality.explainability module
+-------------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.explainability
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PL4XGLFunctionality.language module
+-------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.language
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PL4XGLFunctionality.store\_predictions module
+-----------------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.store_predictions
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality
+   :members:
+   :show-inheritance:
+   :undoc-members:

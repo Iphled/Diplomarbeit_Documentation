@@ -1,0 +1,29 @@
+GraphClassification.PetriLyzerFunctionality.loader package
+==========================================================
+
+Submodules
+----------
+
+GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader module
+-----------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader module
+------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.loader
+   :members:
+   :show-inheritance:
+   :undoc-members:

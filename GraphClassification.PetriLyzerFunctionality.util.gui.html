@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>GraphClassification.PetriLyzerFunctionality.util.gui package &#8212; PetriLyzer  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=47202671" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=fce32b03" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="GraphClassification.util package" href="GraphClassification.util.html" />
+    <link rel="prev" title="GraphClassification.PetriLyzerFunctionality.util.classification package" href="GraphClassification.PetriLyzerFunctionality.util.classification.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>PetriLyzer  documentation</span></a></h1>
+        <h2 class="heading"><span>GraphClassification.PetriLyzerFunctionality.util.gui package</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="Top">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PetriLyzerFunctionality.util.classification.html">GraphClassification.PetriLyzerFunctionality.util.classification package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.util.html">GraphClassification.util package</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="graphclassification-petrilyzerfunctionality-util-gui-package">
+<h1>GraphClassification.PetriLyzerFunctionality.util.gui package<a class="headerlink" href="#graphclassification-petrilyzerfunctionality-util-gui-package" title="Link to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.gui.Display">
+<span id="graphclassification-petrilyzerfunctionality-util-gui-display-module"></span><h2>GraphClassification.PetriLyzerFunctionality.util.gui.Display module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.gui.Display" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayPetrinet">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.Display.</span></span><span class="sig-name descname"><span class="pre">displayPetrinet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">net</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial_marking</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">final_marking</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">top</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">window_width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">window_height</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayPetrinet" title="Link to this definition">¶</a></dt>
+<dd><p>Displays a Petri net.</p>
+<section id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>net: pm4py.objects.petri_net.petrinet.PetriNet</dt><dd><p>Petri net to display</p>
+</dd>
+<dt>initial_marking: pm4py.objects.petri_net.marking.Marking</dt><dd><p>Initial marking of the Petri net</p>
+</dd>
+<dt>final_marking: pm4py.objects.petri_net.marking.Marking</dt><dd><p>Final marking of the Petri net</p>
+</dd>
+<dt>top: tkinter.Tk</dt><dd><p>Top level widget</p>
+</dd>
+<dt>window_width: int</dt><dd><p>Width of the window</p>
+</dd>
+<dt>window_height: int</dt><dd><p>Height of the window</p>
+</dd>
+</dl>
+</section>
+<section id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayProgram">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.Display.</span></span><span class="sig-name descname"><span class="pre">displayProgram</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">program</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">GDL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">top</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayProgram" title="Link to this definition">¶</a></dt>
+<dd><p>Displays a GDL program as a directed graph.</p>
+<section id="id1">
+<h3>Parameters<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>program: GDL</dt><dd><p>The GDL program to display.</p>
+</dd>
+<dt>top: tkinter.Tk</dt><dd><p>The root window to display the graph in.</p>
+</dd>
+</dl>
+</section>
+<section id="id2">
+<h3>Returns<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.Display.extractInfo">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.Display.</span></span><span class="sig-name descname"><span class="pre">extractInfo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.Display.extractInfo" title="Link to this definition">¶</a></dt>
+<dd><p>Extracts information from a node in a GDL program.</p>
+<p>Given a node in a GDL program, this function will extract the information
+from it and return a string and a color. The string will be empty if the
+node is not a place or transition, and it will contain the range of possible
+markings if the node is a place or transition. The color will be green if
+the node is a place or transition, orange if it is a transition, blue if
+it is a place, and white if it is not a place or transition.</p>
+<section id="id3">
+<h3>Parameters<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>node: dict</dt><dd><p>Node in a GDL program</p>
+</dd>
+</dl>
+</section>
+<section id="id4">
+<h3>Returns<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>res: str</dt><dd><p>String containing the information from the node</p>
+</dd>
+<dt>color: str</dt><dd><p>Color of the node</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry">
+<span id="graphclassification-petrilyzerfunctionality-util-gui-gui-geometry-module"></span><h2>GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_postcondition_list">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.</span></span><span class="sig-name descname"><span class="pre">fill_postcondition_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">elements</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_postcondition_list" title="Link to this definition">¶</a></dt>
+<dd><p>Fill the given Listbox with the given elements.</p>
+<section id="id5">
+<h3>Parameters<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>list<span class="classifier">Listbox</span></dt><dd><p>The Listbox to fill</p>
+</dd>
+<dt>elements<span class="classifier">list</span></dt><dd><p>The elements to fill the Listbox with</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_precondition_list">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.</span></span><span class="sig-name descname"><span class="pre">fill_precondition_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">list</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Listbox</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">elements</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_precondition_list" title="Link to this definition">¶</a></dt>
+<dd><p>Fill the given Listbox with the given elements.</p>
+<section id="id6">
+<h3>Parameters<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>list<span class="classifier">Listbox</span></dt><dd><p>The Listbox to fill</p>
+</dd>
+<dt>elements<span class="classifier">list</span></dt><dd><p>The elements to fill the Listbox with</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometry">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.</span></span><span class="sig-name descname"><span class="pre">setGeometry</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">element</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent_width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent_height</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometry" title="Link to this definition">¶</a></dt>
+<dd><p>Set the geometry of the element given the width and height of the element and the width and height of the parent.</p>
+<section id="id7">
+<h3>Parameters<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>element<span class="classifier">tkinter.Tk</span></dt><dd><p>Element to set the geometry of</p>
+</dd>
+<dt>width<span class="classifier">int</span></dt><dd><p>Width of the element</p>
+</dd>
+<dt>height<span class="classifier">int</span></dt><dd><p>Height of the element</p>
+</dd>
+<dt>parent_width<span class="classifier">int</span></dt><dd><p>Width of the parent</p>
+</dd>
+<dt>parent_height<span class="classifier">int</span></dt><dd><p>Height of the parent</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometryFromParent">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.</span></span><span class="sig-name descname"><span class="pre">setGeometryFromParent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">element</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tk</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometryFromParent" title="Link to this definition">¶</a></dt>
+<dd><p>Set the geometry of the element given the width and height of the element and the parent.</p>
+<section id="id8">
+<h3>Parameters<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>element<span class="classifier">tkinter.Tk</span></dt><dd><p>Element to set the geometry of</p>
+</dd>
+<dt>width<span class="classifier">int</span></dt><dd><p>Width of the element</p>
+</dd>
+<dt>height<span class="classifier">int</span></dt><dd><p>Height of the element</p>
+</dd>
+<dt>parent<span class="classifier">tkinter.Tk</span></dt><dd><p>Parent of the element</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame">
+<span id="graphclassification-petrilyzerfunctionality-util-gui-toggledframe-module"></span><h2>GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.</span></span><span class="sig-name descname"><span class="pre">ToggledFrame</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'red'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">options</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Frame</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame.toggle">
+<span class="sig-name descname"><span class="pre">toggle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">event</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame.toggle" title="Link to this definition">¶</a></dt>
+<dd><p>Toggle the visibility of the sub_frame.</p>
+<p>If the sub_frame is visible, then hide it and change the toggle button’s text to ‘+’,
+otherwise show the sub_frame and change the toggle button’s text to ‘-‘.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>event</strong> (<em>tkinter.Event</em><em> or </em><em>None</em>) – The event that triggered the toggle, if any.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.gui">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.gui" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="Bottom">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PetriLyzerFunctionality.util.classification.html">GraphClassification.PetriLyzerFunctionality.util.classification package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.util.html">GraphClassification.util package</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Julia Rennert.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

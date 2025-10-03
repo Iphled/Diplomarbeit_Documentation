@@ -1,0 +1,55 @@
+GraphClassification package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   GraphClassification.PL4XGLFunctionality
+   GraphClassification.PetriLyzerFunctionality
+
+Submodules
+----------
+
+GraphClassification.PetriLyzer module
+-------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzer
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+
+GraphClassification.learn module
+--------------------------------
+
+.. automodule:: GraphClassification.learn
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.learn\_from\_instance\_bu module
+----------------------------------------------------
+
+.. automodule:: GraphClassification.learn_from_instance_bu
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.tryout module
+---------------------------------
+
+.. automodule:: GraphClassification.tryout
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification
+   :members:
+   :show-inheritance:
+   :undoc-members:

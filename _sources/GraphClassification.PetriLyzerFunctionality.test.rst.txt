@@ -1,0 +1,29 @@
+GraphClassification.PetriLyzerFunctionality.test package
+========================================================
+
+Submodules
+----------
+
+GraphClassification.PetriLyzerFunctionality.test.certification module
+---------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.test.certification
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PetriLyzerFunctionality.test.compiler module
+----------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.test.compiler
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.test
+   :members:
+   :show-inheritance:
+   :undoc-members:

@@ -1,0 +1,65 @@
+.. PetriLyzer documentation master file, created by
+   sphinx-quickstart on Thu Aug 28 10:32:30 2025.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to the PetriLyzer, a tool which allows you to classify and certify Petri nets according to their trace similarity.
+
+Requirements
+============
+
+The project was tested using Python 3.12 on Ubuntu.
+Running it with a different interpreter or operating system might result into a divergent outcome.
+
+For additional package needs, please consult the requirements.txt.
+
+Usage
+=====
+
+To use the PetriLyzer tool, please perform the following steps:
+
+* Set up the project
+* Run the project
+
+Classification:
+
+* Load a Petri net via "Petri Net/Open"
+* Select your classification aim via "Classify/Classification Goal"
+* Run the classification via "Classify/Run..."
+* You can now display the explanation or save the classification
+
+Certification
+
+* Optional: Load a Petri net and run the classification
+* Create or load a certification metric
+* Local Certification: Look, whether your loaded Petri net and classification lies within the certificate
+* Global Certification: Check the classification model against the certification metric
+
+Data Types
+==========
+
+Please load the Petri net using the .pnml format.
+
+The certification metrics have a file format called .cert which is based on the .pickle format.
+
+A GDL program for the certificate precondition should have the following format:
+
+node
+edge
+target graph
+
+Source Code
+===========
+
+For a deeper understanding of the code, the following documentation details the classes and functions of the project.
+
+
+.. toctree::
+   :maxdepth: 5
+   :caption: Contents:
+
+   GraphClassification
+   GraphClassification.PetriLyzerFunctionality
+   GraphClassification.PetriLyzerFunctionality.loader
+   GraphClassification.PetriLyzerFunctionality.util
+   modules

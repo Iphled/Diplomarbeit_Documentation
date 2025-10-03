@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>GraphClassification.PL4XGLFunctionality package &#8212; PetriLyzer  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=47202671" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=fce32b03" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="GraphClassification.PL4XGLFunctionality.synthesis package" href="GraphClassification.PL4XGLFunctionality.synthesis.html" />
+    <link rel="prev" title="GraphClassification package" href="GraphClassification.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>PetriLyzer  documentation</span></a></h1>
+        <h2 class="heading"><span>GraphClassification.PL4XGLFunctionality package</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="Top">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.html">GraphClassification package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PL4XGLFunctionality.synthesis.html">GraphClassification.PL4XGLFunctionality.synthesis package</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="graphclassification-pl4xglfunctionality-package">
+<h1>GraphClassification.PL4XGLFunctionality package<a class="headerlink" href="#graphclassification-pl4xglfunctionality-package" title="Link to this heading">¶</a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html">GraphClassification.PL4XGLFunctionality.synthesis package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC">GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_graph"><code class="docutils literal notranslate"><span class="pre">init_GDL_program_from_graph()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_idx"><code class="docutils literal notranslate"><span class="pre">init_GDL_program_from_idx()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.learn_a_GDL_program"><code class="docutils literal notranslate"><span class="pre">learn_a_GDL_program()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.generalize">GraphClassification.PL4XGLFunctionality.synthesis.generalize module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize"><code class="docutils literal notranslate"><span class="pre">generalize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_all"><code class="docutils literal notranslate"><span class="pre">generalize_all()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_edge"><code class="docutils literal notranslate"><span class="pre">generalize_edge()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_node"><code class="docutils literal notranslate"><span class="pre">generalize_node()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_GDL_program_edges"><code class="docutils literal notranslate"><span class="pre">process_GDL_program_edges()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_unreachable_nodes"><code class="docutils literal notranslate"><span class="pre">process_unreachable_nodes()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.remove_edges"><code class="docutils literal notranslate"><span class="pre">remove_edges()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html">GraphClassification.PL4XGLFunctionality.util package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util.eval_val">GraphClassification.PL4XGLFunctionality.util.eval_val module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.eval_validation"><code class="docutils literal notranslate"><span class="pre">eval_validation()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_default_and_fitted_label"><code class="docutils literal notranslate"><span class="pre">find_default_and_fitted_label()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_max"><code class="docutils literal notranslate"><span class="pre">find_max()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_val_threshold"><code class="docutils literal notranslate"><span class="pre">find_val_threshold()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.map_val_graphs_to_scores"><code class="docutils literal notranslate"><span class="pre">map_val_graphs_to_scores()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.search_hyperparameters"><code class="docutils literal notranslate"><span class="pre">search_hyperparameters()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.connected">
+<span id="graphclassification-pl4xglfunctionality-connected-module"></span><h2>GraphClassification.PL4XGLFunctionality.connected module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.connected" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.DFS">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">DFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">src</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.DFS" title="Link to this definition">¶</a></dt>
+<dd><p>Performs a depth-first search of a graph, returning a set of visited nodes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>src</strong> (<em>int</em>) – The source node to start the search from.</p></li>
+<li><p><strong>edges</strong> (<em>dict</em>) – A dictionary mapping each node to its adjacent nodes.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A set of node indices that were visited during the search.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.Graph">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">Graph</span></span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Graph object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>Nodes</strong> – The nodes of the graph, as a set</p></li>
+<li><p><strong>Edges</strong> – The edges of the graph, as a dictionary mapping from one node to all its neighbors.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.Graph.addEdge">
+<span class="sig-name descname"><span class="pre">addEdge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.Graph.addEdge" title="Link to this definition">¶</a></dt>
+<dd><p>Adds an edge between two nodes, using their internal node indices.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>fr</strong> (<em>int</em>) – The index of the first node.</p></li>
+<li><p><strong>to</strong> (<em>int</em>) – The index of the second node.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.Graph.idx_node_map">
+<span class="sig-name descname"><span class="pre">idx_node_map</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.Graph.idx_node_map" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.Graph.node_idx_map">
+<span class="sig-name descname"><span class="pre">node_idx_map</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.Graph.node_idx_map" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.Graph.takeNodes">
+<span class="sig-name descname"><span class="pre">takeNodes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nodes</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.Graph.takeNodes" title="Link to this definition">¶</a></dt>
+<dd><p>Takes a set of nodes and assigns internal node indices to them.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>nodes</strong> (<em>set</em>) – The set of nodes to be taken.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.IsConnected">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">IsConnected</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.IsConnected" title="Link to this definition">¶</a></dt>
+<dd><p>Checks whether a given graph is connected.</p>
+<p>This function takes a graph and returns True if the graph is connected, False otherwise.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>graph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The graph to be checked.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the graph is connected, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.extract_graph">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">extract_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.extract_graph" title="Link to this definition">¶</a></dt>
+<dd><p>Extracts a graph from a given graph and data object.</p>
+<p>This function takes a graph and a data object and returns a Graph object
+that represents the extracted graph.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>tuple</em>) – The graph to be extracted.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The extracted graph.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph">Graph</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.graph_is_connected">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">graph_is_connected</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.graph_is_connected" title="Link to this definition">¶</a></dt>
+<dd><p>Checks whether a given graph is connected.</p>
+<p>This function takes a graph and a data object and returns True if the graph is connected, False otherwise.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>tuple</em>) – The graph to be checked.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the graph is connected, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.graph_is_fully_connected">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">graph_is_fully_connected</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.graph_is_fully_connected" title="Link to this definition">¶</a></dt>
+<dd><p>Checks whether a given graph is fully connected.</p>
+<p>This function takes a graph and a data object and returns True if the graph is fully connected, False otherwise.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>tuple</em>) – The graph to be checked.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the graph is fully connected, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.is_connected">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">is_connected</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.is_connected" title="Link to this definition">¶</a></dt>
+<dd><p>Checks whether a given GDL program describes a connected graph.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be checked.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the described graph is connected, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.my_DFS">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">my_DFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">src</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.my_DFS" title="Link to this definition">¶</a></dt>
+<dd><p>Performs a depth-first search of a graph, returning a set of visited nodes and all edges
+that connect them.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>src</strong> (<em>int</em>) – The source node to start the search from.</p></li>
+<li><p><strong>edges</strong> (<em>dict</em>) – A dictionary mapping each node to its adjacent nodes.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple of two items: a set of node indices that were visited during the search,</p>
+</dd>
+</dl>
+<p>and a set of edges that connect the visited nodes.
+:rtype: tuple</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.separate_a_graph">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">separate_a_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.separate_a_graph" title="Link to this definition">¶</a></dt>
+<dd><p>Separates a given graph into connected subgraphs.</p>
+<p>This function takes a graph and a data object and returns a set of connected subgraphs, where each subgraph is represented as a tuple of a list of nodes and a list of edges.
+The function first creates a graph object from the given graph and data object, then calls the <cite>separate_graph</cite> function to separate the graph into connected subgraphs.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>tuple</em>) – The graph to be separated.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A set of connected subgraphs.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.connected.separate_graph">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.connected.</span></span><span class="sig-name descname"><span class="pre">separate_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">A</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.connected.separate_graph" title="Link to this definition">¶</a></dt>
+<dd><p>Separates a given graph into connected subgraphs.</p>
+<p>This function takes a graph and a list of edges A and returns a list of subgraphs, where each subgraph is represented as a tuple of a list of nodes and a list of edges.
+The function first creates a copy of the nodes and iteratively removes a node and all of its neighbors from the copy of the nodes, storing the removed nodes and edges in a subgraph.
+The function continues until all nodes have been removed from the copy of the nodes, at which point it returns the list of subgraphs.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The graph to be separated.</p></li>
+<li><p><strong>A</strong> (<em>list</em>) – The list of edges.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A list of connected subgraphs.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.data_loader">
+<span id="graphclassification-pl4xglfunctionality-data-loader-module"></span><h2>GraphClassification.PL4XGLFunctionality.data_loader module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.data_loader" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.data_loader.</span></span><span class="sig-name descname"><span class="pre">Data</span></span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.A">
+<span class="sig-name descname"><span class="pre">A</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.A" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.X_edge">
+<span class="sig-name descname"><span class="pre">X_edge</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.X_edge" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.X_node">
+<span class="sig-name descname"><span class="pre">X_node</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.X_node" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.chosen_depth">
+<span class="sig-name descname"><span class="pre">chosen_depth</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.chosen_depth" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.graph_to_label">
+<span class="sig-name descname"><span class="pre">graph_to_label</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.graph_to_label" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.graphs">
+<span class="sig-name descname"><span class="pre">graphs</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.graphs" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.nodes_to_edge">
+<span class="sig-name descname"><span class="pre">nodes_to_edge</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.nodes_to_edge" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.pred_node_to_nodes">
+<span class="sig-name descname"><span class="pre">pred_node_to_nodes</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.pred_node_to_nodes" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.succ_node_to_nodes">
+<span class="sig-name descname"><span class="pre">succ_node_to_nodes</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.succ_node_to_nodes" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.test_graphs">
+<span class="sig-name descname"><span class="pre">test_graphs</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.test_graphs" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.train_graphs">
+<span class="sig-name descname"><span class="pre">train_graphs</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.train_graphs" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.Data.val_graphs">
+<span class="sig-name descname"><span class="pre">val_graphs</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data.val_graphs" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.load_BACE">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.data_loader.</span></span><span class="sig-name descname"><span class="pre">load_BACE</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.load_BACE" title="Link to this definition">¶</a></dt>
+<dd><p>Load data from BACE dataset.</p>
+<section id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>Data</dt><dd><p>A Data object containing the loaded data.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.load_BBBP">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.data_loader.</span></span><span class="sig-name descname"><span class="pre">load_BBBP</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.load_BBBP" title="Link to this definition">¶</a></dt>
+<dd><p>Load the BBBP dataset.</p>
+<section id="id1">
+<h3>Returns<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>Data</dt><dd><p>A Data object containing the loaded data.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.load_HIV">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.data_loader.</span></span><span class="sig-name descname"><span class="pre">load_HIV</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.load_HIV" title="Link to this definition">¶</a></dt>
+<dd><p>Load data from HIV dataset.</p>
+<section id="id2">
+<h3>Returns<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>Data</dt><dd><p>A Data object containing the loaded data.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.load_MUTAG">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.data_loader.</span></span><span class="sig-name descname"><span class="pre">load_MUTAG</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.load_MUTAG" title="Link to this definition">¶</a></dt>
+<dd><p>Load MUTAG dataset.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>data: Data object containing all the information about the graph dataset.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.data_loader.load_Petri_Nets">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.data_loader.</span></span><span class="sig-name descname"><span class="pre">load_Petri_Nets</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.data_loader.load_Petri_Nets" title="Link to this definition">¶</a></dt>
+<dd><p>Load data from a Petri net dataset.</p>
+<section id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>dataset<span class="classifier">str</span></dt><dd><p>The name of the dataset to be loaded.</p>
+</dd>
+</dl>
+</section>
+<section id="id3">
+<h3>Returns<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>Data</dt><dd><p>A Data object containing the loaded data.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.eval_single">
+<span id="graphclassification-pl4xglfunctionality-eval-single-module"></span><h2>GraphClassification.PL4XGLFunctionality.eval_single module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.eval_single" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.eval_single.eval_acc">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.eval_single.</span></span><span class="sig-name descname"><span class="pre">eval_acc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">graph</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.PetrinetGraph" title="GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.PetrinetGraph"><span class="pre">PetrinetGraph</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.eval_single.eval_acc" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluate the accuracy of the model on a given dataset.</p>
+<section id="id4">
+<h3>Parameters<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>dataset<span class="classifier">str</span></dt><dd><p>The name of the dataset to evaluate on.</p>
+</dd>
+<dt>graph<span class="classifier">PetrinetGraph</span></dt><dd><p>A PetrinetGraph object. If given, the accuracy of the model on
+this graph is evaluated. Otherwise, the accuracy on the given
+dataset is evaluated.</p>
+</dd>
+</dl>
+</section>
+<section id="id5">
+<h3>Returns<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<p>If graph is not None, return a tuple of two values. The first
+value is the predicted label of the graph and the second value is
+the learned GDL program used to make the prediction. Otherwise,
+return None.</p>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.explainability">
+<span id="graphclassification-pl4xglfunctionality-explainability-module"></span><h2>GraphClassification.PL4XGLFunctionality.explainability module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.explainability" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.explainability.eval_acc_explainability">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.explainability.</span></span><span class="sig-name descname"><span class="pre">eval_acc_explainability</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.explainability.eval_acc_explainability" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluate the accuracy of the model on a given dataset with explainability metrics.</p>
+<section id="id6">
+<h3>Parameters<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>dataset<span class="classifier">str</span></dt><dd><p>The name of the dataset to evaluate on.</p>
+</dd>
+</dl>
+</section>
+<section id="id7">
+<h3>Returns<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.language">
+<span id="graphclassification-pl4xglfunctionality-language-module"></span><h2>GraphClassification.PL4XGLFunctionality.language module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.language" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.GDL">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">GDL</span></span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.GDL_program_size">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">GDL_program_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.GDL_program_size" title="Link to this definition">¶</a></dt>
+<dd><p>Computes the size of a GDL program, measured by the number of node variables
+and edge variables.</p>
+<p>This function takes a GDL program as input and returns the size of the
+program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to compute the size of.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The size of the GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.GDL_program_to_Str">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">GDL_program_to_Str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">representation_type</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.GDL_program_to_Str" title="Link to this definition">¶</a></dt>
+<dd><p>Converts a GDL program to a string representation.</p>
+<p>This function takes a GDL program and returns a string
+representation of the program. The type of representation
+is determined by the <cite>representation_type</cite> parameter.</p>
+<section id="id8">
+<h3>Parameters<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>GDL_program<span class="classifier">GDL</span></dt><dd><p>The GDL program to be converted.</p>
+</dd>
+<dt>representation_type<span class="classifier">str</span></dt><dd><p>The type of representation to be used. Currently, only ‘nameless’
+and ‘normal’ are supported.</p>
+</dd>
+</dl>
+</section>
+<section id="id9">
+<h3>Returns<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>str</dt><dd><p>The string representation of the GDL program.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.concrete_edge_belong_edge_var">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">concrete_edge_belong_edge_var</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">edge_var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">X_edge</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.concrete_edge_belong_edge_var" title="Link to this definition">¶</a></dt>
+<dd><p>Checks if an edge belongs to an edge variable constraint.</p>
+<p>This function takes an edge variable constraint, an edge, and a dictionary of edge
+attributes, and returns a boolean indicating whether the edge belongs to the
+constraint.</p>
+<p>The edge variable constraint is a tuple of three elements: the first element is a
+dictionary of feature indices to intervals of the form (bot, top) over which the
+feature should be in, the second element is the source node index, and the third
+element is the target node index.  The function iterates over the edge variable
+constraint and checks if the attributes of the edge satisfy the constraint.  If all
+of them do, the function returns True; otherwise, it returns False.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>edge_var</strong> (<em>tuple</em><em> of </em><em>(</em><em>dict</em><em> of </em><em>int to tuple</em><em> of </em><em>float</em><em>, </em><em>int</em><em>, </em><em>int</em><em>)</em>) – The edge variable constraint.</p></li>
+<li><p><strong>edge</strong> (<em>int</em>) – The edge to check.</p></li>
+<li><p><strong>X_edge</strong> (<em>dict</em><em> of </em><em>int to dict</em><em> of </em><em>int to float</em>) – The dictionary of edge attributes.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A boolean indicating whether the edge belongs to the constraint.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.concrete_node_belong_node_var">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">concrete_node_belong_node_var</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node_var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">X_node</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.concrete_node_belong_node_var" title="Link to this definition">¶</a></dt>
+<dd><p>Checks if a node belongs to a node variable constraint.</p>
+<p>This function takes a node variable constraint, a node, and a dictionary of node
+attributes, and returns a boolean indicating whether the node belongs to the
+constraint.</p>
+<p>The node variable constraint is a dictionary where the keys are the feature
+indices and the values are the intervals of the form (bot, top) over which the
+feature should be in.  The function iterates over the node variable constraint
+and checks if the attributes of the node satisfy the constraint.  If all of them
+do, the function returns True; otherwise, it returns False.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>node_var</strong> (<em>dict</em><em> of </em><em>int to tuple</em><em> of </em><em>float</em>) – The node variable constraint.</p></li>
+<li><p><strong>node</strong> (<em>int</em>) – The node to check.</p></li>
+<li><p><strong>X_node</strong> (<em>dict</em><em> of </em><em>int to dict</em><em> of </em><em>int to float</em>) – The dictionary of node attributes.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A boolean indicating whether the node belongs to the constraint.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_DFS">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_GDL_program_DFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_DFS" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a GDL program over a graph using a depth-first search.</p>
+<p>This function takes in a GDL program, a graph, and a data object, and returns a boolean indicating
+whether the graph satisfies the GDL program.</p>
+<p>The function does a depth-first search over the graph, starting from the first edge variable constraint
+in the GDL program.  For each edge that satisfies the constraint, it creates a subgraph and a set of
+node and edge variable assignments that are consistent with the edge, and then recursively calls
+itself on the subgraph and the sub-GDL program.  If any of the recursive calls return True, the
+function returns True; otherwise, it returns False.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<em>GDLProgram</em>) – The GDL program to evaluate.</p></li>
+<li><p><strong>graph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The graph to evaluate the GDL program over.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A boolean indicating whether the graph satisfies the GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_GDL_program_on_graphs_GC</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a GDL program over a set of graphs in a Data object and returns the set of graphs
+that satisfy the program.</p>
+<p>This function takes a GDL program and a Data object as input and returns the set of graphs
+that satisfy the program.</p>
+<p>The function iterates over the graphs in the Data object and checks if the graph satisfies
+the GDL program.  If it does, the graph index is added to the output set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to evaluate.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The Data object containing the graphs.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The set of graph indices that satisfy the GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_GDL_program_on_graphs_GC_Score</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labeled_graphs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a GDL program over a set of graphs in a Data object and returns a score value indicating
+how well the program matches the labeled graphs.</p>
+<p>This function takes a GDL program, a Data object, and a set of labeled graph indices as input and
+returns a score value between 0 and 1 indicating how well the program matches the labeled graphs.</p>
+<p>The function iterates over the graphs in the Data object and checks if the graph satisfies
+the GDL program.  If it does, the graph index is added to either the correct set or the
+incorrect set.  The accuracy of the program is then computed as the ratio of the correct set
+to the sum of the sizes of the correct set and the incorrect set, and the result is returned
+as the score.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to evaluate.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The Data object containing the graphs.</p></li>
+<li><p><strong>labeled_graphs</strong> (<em>set</em><em> of </em><em>int</em>) – The set of labeled graph indices.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The score value indicating how well the program matches the labeled graphs.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score_graphs">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_GDL_program_on_graphs_GC_Score_graphs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labeled_graphs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score_graphs" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a GDL program over a set of graphs in a Data object and returns a score value indicating
+how well the program matches the labeled graphs and the set of chosen graphs that satisfy the program.</p>
+<p>This function takes a GDL program, a Data object, and a set of labeled graph indices as input and
+returns a score value between 0 and 1 indicating how well the program matches the labeled graphs and
+the set of chosen graphs that satisfy the program.</p>
+<p>The function iterates over the graphs in the Data object and checks if the graph satisfies
+the GDL program.  If it does, the graph index is added to either the correct set or the
+incorrect set.  The accuracy of the program is then computed as the ratio of the correct set
+to the sum of the sizes of the correct set and the incorrect set, and the result is returned
+as the score.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to evaluate.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The Data object containing the graphs.</p></li>
+<li><p><strong>labeled_graphs</strong> (<em>set</em><em> of </em><em>int</em>) – The set of labeled graph indices.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The score value indicating how well the program matches the labeled graphs, and the set of chosen graphs that satisfy the program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple of float and set of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_test_graphs">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_GDL_program_on_graphs_GC_test_graphs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_test_graphs" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a GDL program over a set of graphs in a Data object and returns the set of graphs
+that satisfy the program.</p>
+<p>This function takes a GDL program and a Data object as input and returns the set of graphs
+that satisfy the program.</p>
+<p>The function iterates over the graphs in the Data object and checks if the graph satisfies
+the GDL program.  If it does, the graph index is added to the output set.</p>
+<p>The function only evaluates the GDL program over the test graphs in the Data object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to evaluate.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The Data object containing the graphs.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The set of graph indices that satisfy the GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_edge_var">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_edge_var</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">edge_var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">X_edge</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_edge_var" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates an edge variable constraint over a set of edges.</p>
+<p>This function takes in an edge variable constraint, a set of edges, and a
+dictionary of edge attributes, and returns the set of edges that satisfy the
+constraint.</p>
+<p>The edge variable constraint is a tuple of three elements: the first element
+is a dictionary of feature indices to intervals of the form (bot, top) over
+which the feature should be in, the second element is the source node index,
+and the third element is the target node index.  The function iterates over the
+edges and checks if the attributes of the edge satisfy the constraint.  If
+they do, the edge is added to the output set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>edge_var</strong> (<em>tuple</em><em> of </em><em>(</em><em>dict</em><em> of </em><em>int to tuple</em><em> of </em><em>float</em><em>, </em><em>int</em><em>, </em><em>int</em><em>)</em>) – The edge variable constraint.</p></li>
+<li><p><strong>edges</strong> (<em>set</em><em> of </em><em>int</em>) – The set of edges to filter.</p></li>
+<li><p><strong>X_edge</strong> (<em>dict</em><em> of </em><em>int to dict</em><em> of </em><em>int to float</em>) – The dictionary of edge attributes.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The set of edges that satisfy the constraint.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_node_var">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_node_var</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node_var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nodes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">X_node</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_node_var" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a node variable constraint over a set of nodes.</p>
+<p>This function takes in a node variable constraint, a set of nodes, and a
+dictionary of node attributes, and returns the set of nodes that satisfy the
+constraint.</p>
+<p>The node variable constraint is a dictionary where the keys are the feature
+indices and the values are the intervals of the form (bot, top) over which the
+feature should be in.  The function iterates over the nodes and checks if the
+attributes of the node satisfy the constraint.  If they do, the node is added
+to the output set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>node_var</strong> (<em>dict</em><em> of </em><em>int to tuple</em><em> of </em><em>float</em>) – The node variable constraint.</p></li>
+<li><p><strong>nodes</strong> (<em>set</em><em> of </em><em>int</em>) – The set of nodes to filter.</p></li>
+<li><p><strong>X_node</strong> (<em>dict</em><em> of </em><em>int to dict</em><em> of </em><em>int to float</em>) – The dictionary of node attributes.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The set of nodes that satisfy the constraint.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set of int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.eval_single_node_GDL_program_on_graphs">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">eval_single_node_GDL_program_on_graphs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node_var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.eval_single_node_GDL_program_on_graphs" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a single node GDL program on a list of graphs.</p>
+<p>This function takes in a single node GDL program and a data object, and returns a set of indices of graphs in the data object that satisfy the GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>node_var</strong> (<em>NodeVar</em>) – A single node GDL program.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – A data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A set of indices of graphs that satisfy the GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.exist_subgraph_DFS">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">exist_subgraph_DFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">subgraph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sub_GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_var_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_var_idx_to_concrete_node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_var_idx_to_concrete_edge</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">my_maps</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.exist_subgraph_DFS" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function for <cite>eval_GDL_program_DFS</cite>.</p>
+<p>This function evaluates a sub-GDL program over a subgraph using a depth-first search.</p>
+<p>The function takes in a subgraph, a sub-GDL program, a full GDL program, a graph, an edge variable index, a node variable to concrete node mapping, an edge variable to concrete edge mapping, and a data object.</p>
+<p>The function returns an integer indicating whether the subgraph satisfies the sub-GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>subgraph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The subgraph to evaluate the sub-GDL program over.</p></li>
+<li><p><strong>sub_GDL_program</strong> (<em>GDLProgram</em>) – The sub-GDL program to evaluate.</p></li>
+<li><p><strong>GDL_program</strong> (<em>GDLProgram</em>) – The full GDL program.</p></li>
+<li><p><strong>graph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The full graph.</p></li>
+<li><p><strong>edge_var_idx</strong> (<em>int</em>) – The current edge variable index.</p></li>
+<li><p><strong>node_var_idx_to_concrete_node</strong> (<em>dict</em>) – A mapping from node variable indices to concrete nodes.</p></li>
+<li><p><strong>edge_var_idx_to_concrete_edge</strong> (<em>dict</em>) – A mapping from edge variable indices to concrete edges.</p></li>
+<li><p><strong>my_maps</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – A data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>An integer indicating whether the subgraph satisfies the sub-GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.find_matching_subgraph">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">find_matching_subgraph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.find_matching_subgraph" title="Link to this definition">¶</a></dt>
+<dd><p>Find a subgraph in the given graph that matches the given GDL program.</p>
+<p>This function takes in a GDL program, a graph, and a data object,
+and returns a subgraph that matches the GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<em>GDLProgram</em>) – The GDL program to match.</p></li>
+<li><p><strong>graph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The graph to search in.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A subgraph that matches the GDL program, or None if no such subgraph exists.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph">Graph</a> or None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.find_subgraph_DFS">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">find_subgraph_DFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">subgraph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sub_GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_var_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_var_idx_to_concrete_node</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_var_idx_to_concrete_edge</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">my_maps</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.find_subgraph_DFS" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function for <cite>find_matching_subgraph</cite>.</p>
+<p>This function takes in a subgraph, a sub-GDL program, a GDL program, a graph, an index, a dictionary mapping node variable indices to concrete nodes, a dictionary mapping edge variable indices to concrete edges, and a data object.</p>
+<p>The function performs a depth-first search over the graph, starting from the first edge variable constraint in the GDL program.  For each edge that satisfies the constraint, it creates a subgraph and a set of node and edge variable assignments that are consistent with the edge, and then recursively calls itself on the subgraph and the sub-GDL program.  If any of the recursive calls return a matching subgraph, the function returns the matching subgraph; otherwise, it returns None.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>subgraph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The subgraph to search in.</p></li>
+<li><p><strong>sub_GDL_program</strong> (<em>GDLProgram</em>) – The sub-GDL program to search for.</p></li>
+<li><p><strong>GDL_program</strong> (<em>GDLProgram</em>) – The GDL program to search for.</p></li>
+<li><p><strong>graph</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph"><em>Graph</em></a>) – The graph to search in.</p></li>
+<li><p><strong>edge_var_idx</strong> (<em>int</em>) – The index of the edge variable to search for.</p></li>
+<li><p><strong>node_var_idx_to_concrete_node</strong> (<em>dict</em>) – A dictionary mapping node variable indices to concrete nodes.</p></li>
+<li><p><strong>edge_var_idx_to_concrete_edge</strong> (<em>dict</em>) – A dictionary mapping edge variable indices to concrete edges.</p></li>
+<li><p><strong>my_maps</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A matching subgraph, or None if no such subgraph exists.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.connected.Graph" title="GraphClassification.PL4XGLFunctionality.connected.Graph">Graph</a> or None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.get_edge_var_case_and_update_sub_GDL_program">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">get_edge_var_case_and_update_sub_GDL_program</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sub_GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_var</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.get_edge_var_case_and_update_sub_GDL_program" title="Link to this definition">¶</a></dt>
+<dd><p>A helper function for <cite>exist_subgraph_DFS</cite>.</p>
+<p>This function takes in a sub-GDL program and an edge variable,
+and returns an updated sub-GDL program and a integer indicating
+whether the edge variable is a new edge, a new node, or both.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sub_GDL_program</strong> (<em>GDLProgram</em>) – The sub-GDL program to update.</p></li>
+<li><p><strong>edge_var</strong> (<em>EdgeVar</em>) – The edge variable.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>An updated sub-GDL program and a integer indicating whether the edge variable is a new edge, a new node, or both.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(GDLProgram, int)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.print_GDL_program">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">print_GDL_program</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">representation_type</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.print_GDL_program" title="Link to this definition">¶</a></dt>
+<dd><p>Prints a GDL program in a specified representation type.</p>
+<section id="id10">
+<h3>Parameters<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>GDL_program<span class="classifier">GDL</span></dt><dd><p>The GDL program to be printed.</p>
+</dd>
+<dt>representation_type<span class="classifier">str</span></dt><dd><p>The type of representation to be used. Currently, only ‘nameless’ and ‘normal’ are supported.</p>
+</dd>
+</dl>
+</section>
+<section id="id11">
+<h3>Returns<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.language.remove_unreachable_nodes">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.language.</span></span><span class="sig-name descname"><span class="pre">remove_unreachable_nodes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.language.remove_unreachable_nodes" title="Link to this definition">¶</a></dt>
+<dd><p>Removes unreachable nodes from a GDL program.</p>
+<p>This function takes a GDL program, removes unreachable nodes from it, and returns the updated GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>GDL_program</strong> (<a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be processed.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The GDL program with unreachable nodes removed.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.store_predictions">
+<span id="graphclassification-pl4xglfunctionality-store-predictions-module"></span><h2>GraphClassification.PL4XGLFunctionality.store_predictions module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.store_predictions" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.store_predictions.store_predictions">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.store_predictions.</span></span><span class="sig-name descname"><span class="pre">store_predictions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dataset</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.store_predictions.store_predictions" title="Link to this definition">¶</a></dt>
+<dd><p>Store the predictions of the model on the given dataset.</p>
+<section id="id12">
+<h3>Parameters<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>dataset<span class="classifier">str</span></dt><dd><p>The name of the dataset to evaluate on.</p>
+</dd>
+</dl>
+</section>
+<section id="id13">
+<h3>Returns<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
+<p>None</p>
+</section>
+<section id="notes">
+<h3>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h3>
+<p>The predictions are stored in a pickle file named <cite>predicted/&lt;dataset&gt;_predicted.pickle</cite>.</p>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="Bottom">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.html">GraphClassification package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PL4XGLFunctionality.synthesis.html">GraphClassification.PL4XGLFunctionality.synthesis package</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Julia Rennert.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+GraphClassification.PL4XGLFunctionality.synthesis package
+=========================================================
+
+Submodules
+----------
+
+GraphClassification.PL4XGLFunctionality.synthesis.btm\_up\_synthesis\_GC module
+-------------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+GraphClassification.PL4XGLFunctionality.synthesis.generalize module
+-------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.synthesis.generalize
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.synthesis
+   :members:
+   :show-inheritance:
+   :undoc-members:

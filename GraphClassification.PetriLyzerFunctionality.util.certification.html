@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>GraphClassification.PetriLyzerFunctionality.util.certification package &#8212; PetriLyzer  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=47202671" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=fce32b03" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="GraphClassification.PetriLyzerFunctionality.util.classification package" href="GraphClassification.PetriLyzerFunctionality.util.classification.html" />
+    <link rel="prev" title="GraphClassification.PetriLyzerFunctionality.util package" href="GraphClassification.PetriLyzerFunctionality.util.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>PetriLyzer  documentation</span></a></h1>
+        <h2 class="heading"><span>GraphClassification.PetriLyzerFunctionality.util.certification package</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="Top">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PetriLyzerFunctionality.util.html">GraphClassification.PetriLyzerFunctionality.util package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PetriLyzerFunctionality.util.classification.html">GraphClassification.PetriLyzerFunctionality.util.classification package</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="graphclassification-petrilyzerfunctionality-util-certification-package">
+<h1>GraphClassification.PetriLyzerFunctionality.util.certification package<a class="headerlink" href="#graphclassification-petrilyzerfunctionality-util-certification-package" title="Link to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.certification.Certificate">
+<span id="graphclassification-petrilyzerfunctionality-util-certification-certificate-module"></span><h2>GraphClassification.PetriLyzerFunctionality.util.certification.Certificate module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.certification.Certificate" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.</span></span><span class="sig-name descname"><span class="pre">Certificate</span></span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.clear">
+<span class="sig-name descname"><span class="pre">clear</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.clear" title="Link to this definition">¶</a></dt>
+<dd><p>Clears the certificate.</p>
+<p>This method resets the preconditions, postconditions and their names to empty lists.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_globally">
+<span class="sig-name descname"><span class="pre">evaluate_globally</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_globally" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates the certificate globally for a given model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>model</strong> (<em>str</em>) – The model to evaluate the certificate for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple, where the first element is a boolean indicating whether the certificate is valid and the second element is a string or None, indicating the reason why the certificate is not valid if it is not valid.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_single_graph">
+<span class="sig-name descname"><span class="pre">evaluate_single_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_single_graph" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a single graph and label against the certificate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>Graph</em>) – The graph to evaluate</p></li>
+<li><p><strong>label</strong> (<em>int</em>) – The label of the graph</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple, where the first element is True if the graph is valid according to the certificate and the second element is a string describing the result of the evaluation.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.get_programs">
+<span class="sig-name descname"><span class="pre">get_programs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.get_programs" title="Link to this definition">¶</a></dt>
+<dd><p>Loads all programs from a given classification.</p>
+<p>The programs are sorted by their priority.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>classification</strong> (<em>str</em>) – The name of the classification</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A list of tuples, where each tuple contains the label, GDL program, score, and chosen graphs of the program</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graphInPreconditions">
+<span class="sig-name descname"><span class="pre">graphInPreconditions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graphInPreconditions" title="Link to this definition">¶</a></dt>
+<dd><p>Checks whether a given graph satisfies any of the preconditions of the certificate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>Graph</em>) – The graph to check</p></li>
+<li><p><strong>data</strong> (<em>Data</em>) – The data object containing the test graphs</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the graph satisfies any of the preconditions, False otherwise</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graph_to_data">
+<span class="sig-name descname"><span class="pre">graph_to_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">graph</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graph_to_data" title="Link to this definition">¶</a></dt>
+<dd><p>Converts a graph and its label to a Data object and a new graph in the format used by the GNN model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<em>Graph</em>) – The graph to convert</p></li>
+<li><p><strong>label</strong> (<em>int</em>) – The label of the graph</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A Data object and a new graph containing the same information as the input graph</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Data, list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.is_filled">
+<span class="sig-name descname"><span class="pre">is_filled</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.is_filled" title="Link to this definition">¶</a></dt>
+<dd><p>Returns True if the certificate is filled, i.e. both the preconditions and the postconditions are not empty.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>True if the certificate is filled, False otherwise.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.labelInPostconditions">
+<span class="sig-name descname"><span class="pre">labelInPostconditions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.labelInPostconditions" title="Link to this definition">¶</a></dt>
+<dd><p>Checks whether a given label is in the postconditions of the certificate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>label</strong> (<em>int</em>) – The label to check</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the label is in the postconditions, False otherwise</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.programToText">
+<span class="sig-name descname"><span class="pre">programToText</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">index</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.programToText" title="Link to this definition">¶</a></dt>
+<dd><p>Converts a GDL program (i.e. a list of node and edge variables) to a string in the format
+used by the GNN model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>index</strong> (<em>int</em>) – The index of the GDL program in the precondition</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A string in the format used by the GNN model</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPostconditions">
+<span class="sig-name descname"><span class="pre">setPostconditions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">postconditions</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPostconditions" title="Link to this definition">¶</a></dt>
+<dd><p>Sets the postconditions of the certificate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>postconditions</strong> (<em>list</em>) – The postconditions to set.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditionNames">
+<span class="sig-name descname"><span class="pre">setPreconditionNames</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">names</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditionNames" title="Link to this definition">¶</a></dt>
+<dd><p>Sets the names of the preconditions of the certificate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>names</strong> (<em>list</em>) – The names to set.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditions">
+<span class="sig-name descname"><span class="pre">setPreconditions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">preconditions</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditions" title="Link to this definition">¶</a></dt>
+<dd><p>Sets the preconditions of the certificate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>preconditions</strong> (<em>list</em>) – The preconditions to set.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.sortByPriority">
+<span class="sig-name descname"><span class="pre">sortByPriority</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.sortByPriority" title="Link to this definition">¶</a></dt>
+<dd><p>Sorts a list of GDL programs by their priority.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>list</strong> (<em>list</em>) – The list of GDL programs to sort</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL">
+<span id="graphclassification-petrilyzerfunctionality-util-certification-extendedgdl-module"></span><h2>GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.</span></span><span class="sig-name descname"><span class="pre">ExtendedGDL</span></span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">GDL</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.depleteInterval">
+<span class="sig-name descname"><span class="pre">depleteInterval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intervals</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subtract</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.depleteInterval" title="Link to this definition">¶</a></dt>
+<dd><p>Deplete the given intervals with the given subtract intervals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>intervals</strong> (<em>list</em>) – The intervals to deplete.</p></li>
+<li><p><strong>subtract</strong> (<em>list</em>) – The intervals to subtract.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The remaining intervals after depleting.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.evaluate">
+<span class="sig-name descname"><span class="pre">evaluate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">programs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pl</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">index</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">postcondition</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.evaluate" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluate the certification using the given programs and preconditions.</p>
+<p>The evaluation is done by iterating through the programs and applying the
+extend method to each program in the precondition. If any of the programs
+in the precondition overlap with the ExtendedGDL object, the evaluation
+returns False. Otherwise, the evaluation returns the postcondition.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>programs</strong> (<em>list</em>) – The list of GDL programs.</p></li>
+<li><p><strong>Pl</strong> (<em>list</em>) – The list of indices of the GDL programs that are in the precondition.</p></li>
+<li><p><strong>index</strong> (<em>int</em>) – The index of the current GDL program.</p></li>
+<li><p><strong>postcondition</strong> (<em>list</em>) – The postcondition of the certification.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The result of the evaluation.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extend">
+<span class="sig-name descname"><span class="pre">extend</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">programs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pl</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">index</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">postcondition</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mapping</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">[]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extend" title="Link to this definition">¶</a></dt>
+<dd><p>Extend the certification by applying the given mapping to the current GDL program.</p>
+<p>The method first computes the mapping between the node variables of the ExtendedGDL object
+and the node variables of the GDL program. It then iterates over the mapped node variables
+and the edge variables of the GDL program and depletes the intervals of the ExtendedGDL object
+with the intervals of the GDL program. The method then calls the extendOrEvaluate method
+with the depleted ExtendedGDL object and the remaining mapping.</p>
+<p>The method returns True if the certification is successful, False otherwise.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>programs</strong> (<em>list</em>) – The list of GDL programs.</p></li>
+<li><p><strong>Pl</strong> (<em>list</em>) – The list of indices of the GDL programs that are in the precondition.</p></li>
+<li><p><strong>index</strong> (<em>int</em>) – The index of the current GDL program.</p></li>
+<li><p><strong>postcondition</strong> (<em>list</em>) – The postcondition of the certification.</p></li>
+<li><p><strong>mapping</strong> (<em>list</em>) – The mapping between the node variables of the ExtendedGDL object
+and the node variables of the GDL program.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The result of the extension.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extendOrEvaluate">
+<span class="sig-name descname"><span class="pre">extendOrEvaluate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">programs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Pl</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">index</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">postcondition</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mapping</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extendOrEvaluate" title="Link to this definition">¶</a></dt>
+<dd><p>Extend or evaluate the certification using the given mapping.</p>
+<p>If the length of the mapping is less than 2, the method evaluates the certification
+by calling the evaluate method. Otherwise, it extends the certification by calling
+the extend method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>programs</strong> (<em>list</em>) – The list of GDL programs.</p></li>
+<li><p><strong>Pl</strong> (<em>list</em>) – The list of indices of the GDL programs that are in the precondition.</p></li>
+<li><p><strong>index</strong> (<em>int</em>) – The index of the current GDL program.</p></li>
+<li><p><strong>postcondition</strong> (<em>list</em>) – The postcondition of the certification.</p></li>
+<li><p><strong>mapping</strong> (<em>list</em>) – The mapping between the node variables of the ExtendedGDL object
+and the node variables of the GDL program.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The result of the evaluation or extension.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.getEdgeMapping">
+<span class="sig-name descname"><span class="pre">getEdgeMapping</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">program</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">GDL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subgraph</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.getEdgeMapping" title="Link to this definition">¶</a></dt>
+<dd><p>Compute the mapping between the edge variables of the ExtendedGDL object
+and the edge variables of the GDL program, given a mapping between the node
+variables of the two programs.</p>
+<p>The mapping is a dictionary where the keys are the edge indices of the
+GDL program and the values are the edge indices of the ExtendedGDL object.</p>
+<p>The method returns the mapping.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>program</strong> (<em>GDL</em>) – The GDL program.</p></li>
+<li><p><strong>subgraph</strong> (<em>dict</em>) – The mapping between the node variables of the two programs.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The mapping between the edge variables of the two programs.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.intervalsOverlap">
+<span class="sig-name descname"><span class="pre">intervalsOverlap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">certIntervals</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">programInterval</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.intervalsOverlap" title="Link to this definition">¶</a></dt>
+<dd><p>Check if the intervals in the ExtendedGDL object are a subset of the intervals in the GDL program.</p>
+<p>The intervals are a subset if for every node variable in the ExtendedGDL object, the intervals
+in the ExtendedGDL object are a subset of the intervals in the GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>certIntervals</strong> (<em>dict</em>) – The intervals in the ExtendedGDL object.</p></li>
+<li><p><strong>programInterval</strong> (<em>dict</em>) – The intervals in the GDL program.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the intervals are a subset, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.map">
+<span class="sig-name descname"><span class="pre">map</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">program</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">GDL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">res</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.map" title="Link to this definition">¶</a></dt>
+<dd><p>Compute all valid mappings between the ExtendedGDL object and the GDL program.</p>
+<p>The mapping is a dictionary where the keys are the node indices of the ExtendedGDL object
+and the values are the node indices of the GDL program.</p>
+<p>The method returns all valid mappings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>program</strong> (<em>GDL</em>) – The GDL program.</p></li>
+<li><p><strong>res</strong> (<em>dict</em>) – The current mapping.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>All valid mappings.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.overlap">
+<span class="sig-name descname"><span class="pre">overlap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">program</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.overlap" title="Link to this definition">¶</a></dt>
+<dd><p>Check if the ExtendedGDL object overlaps with the given program.</p>
+<p>The object overlaps with the program if there exists a mapping between the
+node variables of the two programs such that the intervals in the ExtendedGDL
+object are a subset of the intervals in the program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>program</strong> (<em>GDL</em>) – The GDL program to check against.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the object overlaps with the program, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.prepare">
+<span class="sig-name descname"><span class="pre">prepare</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.prepare" title="Link to this definition">¶</a></dt>
+<dd><p>Prepare the ExtendedGDL object to be used for certification.</p>
+<p>This method populates the nodeIntervals and edgeIntervals lists of the ExtendedGDL object,
+which are used for certification.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.validMapping">
+<span class="sig-name descname"><span class="pre">validMapping</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">program</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">GDL</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">res</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.validMapping" title="Link to this definition">¶</a></dt>
+<dd><p>Check if the given mapping is valid with respect to the given program.</p>
+<p>The mapping is valid if for every node variable in the program, the intervals
+in the ExtendedGDL object are a subset of the intervals in the program, and
+for every edge variable in the program, the intervals in the ExtendedGDL
+object are a subset of the intervals in the program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>program</strong> (<em>GDL</em>) – The GDL program to check against.</p></li>
+<li><p><strong>res</strong> (<em>dict</em>) – The mapping to check.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the mapping is valid, False otherwise.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate">
+<span id="graphclassification-petrilyzerfunctionality-util-certification-parsecertificate-module"></span><h2>GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate module<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateEdge">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">evaluateEdge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tokens</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateEdge" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates an edge of the GDL program given in lexical representation.</p>
+<p>The function transforms an edge of the GDL program given in lexical
+representation into a tuple (interval, node1, node2) where interval is a
+dictionary which maps the interval names to the intervals, node1 is the
+name of the first node of the edge and node2 is the name of the second
+node of the edge. It returns a tuple (interval, node1, node2).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tokens</strong> (<em>list</em>) – The list of tokens</p></li>
+<li><p><strong>var</strong> (<em>list</em>) – The list of variable names</p></li>
+<li><p><strong>num</strong> (<em>list</em>) – The list of numbers</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple (interval, node1, node2) where interval is a dictionary which
+maps the interval names to the intervals, node1 is the name of the
+first node of the edge and node2 is the name of the second node of the
+edge</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateLine">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">evaluateLine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tokens</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateLine" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a line of the GDL program given in lexical representation.</p>
+<p>The function transforms a line of the GDL program given in lexical
+representation into a GDL program in object representation. It returns
+a tuple (type,res) where res is a GDL program in object representation and
+type is a number specifying the type of the GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tokens</strong> (<em>list</em>) – The list of tokens</p></li>
+<li><p><strong>var</strong> (<em>list</em>) – The list of variable names</p></li>
+<li><p><strong>num</strong> (<em>list</em>) – The list of numbers</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple (type,res) where res is a GDL program in object
+representation and type is a number specifying the type of the
+GDL program</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateNode">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">evaluateNode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tokens</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateNode" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates a node of the GDL program given in lexical representation.</p>
+<p>The function transforms a node of the GDL program given in lexical
+representation into a GDL program in object representation. It returns
+a tuple (node_name,intervals) where intervals is a dictionary which maps
+the interval names to the intervals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tokens</strong> (<em>list</em>) – The list of tokens</p></li>
+<li><p><strong>var</strong> (<em>list</em>) – The list of variable names</p></li>
+<li><p><strong>num</strong> (<em>list</em>) – The list of numbers</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple (node_name,intervals) where intervals is a dictionary which maps
+the interval names to the intervals</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.getInterval">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">getInterval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tokens</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.getInterval" title="Link to this definition">¶</a></dt>
+<dd><p>Evaluates an interval of the GDL program given in lexical representation.</p>
+<p>The function transforms an interval of the GDL program given in lexical
+representation into a dictionary which maps the interval names to the intervals.
+It returns a dictionary which maps the interval names to the intervals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tokens</strong> (<em>list</em>) – The list of tokens</p></li>
+<li><p><strong>num</strong> (<em>list</em>) – The list of numbers</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A dictionary which maps the interval names to the intervals</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.lex">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">lex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.lex" title="Link to this definition">¶</a></dt>
+<dd><p>Lexical analysis for a GDL program.</p>
+<p>This function performs the lexical analysis for a GDL program given in text
+representation. It returns a list of tokens and their corresponding values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – The GDL program in text representation</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple (tokens,var,num) where tokens is a list of tokens, var is
+a list of variable names and num is a list of numbers.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.parse">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">parse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tokens</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.parse" title="Link to this definition">¶</a></dt>
+<dd><p>Transforms a list of tokens, a list of variable names and a list of numbers to a GDL program in object representation.</p>
+<p>This function performs the syntax analysis for a GDL program given in lexical
+representation. It returns a GDL program in object representation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tokens</strong> (<em>list</em>) – The list of tokens</p></li>
+<li><p><strong>var</strong> (<em>list</em>) – The list of variable names</p></li>
+<li><p><strong>num</strong> (<em>list</em>) – The list of numbers</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The GDL program in object representation</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GDL</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.splitIntoLines">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">splitIntoLines</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tokens</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">var</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.splitIntoLines" title="Link to this definition">¶</a></dt>
+<dd><p>Splits a list of tokens into lines.</p>
+<p>This function takes a list of tokens, a list of variable names and a list of numbers
+and returns three lists: a list of lists of tokens, a list of lists of variable
+indices and a list of lists of numbers. The lists are grouped according to the
+lines in the GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tokens</strong> (<em>list</em>) – The list of tokens</p></li>
+<li><p><strong>var</strong> (<em>list</em>) – The list of variable names</p></li>
+<li><p><strong>num</strong> (<em>list</em>) – The list of numbers</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The three lists of lists of tokens, variable indices and numbers</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple(list,list,list)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.textToGDLprogram">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.</span></span><span class="sig-name descname"><span class="pre">textToGDLprogram</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.textToGDLprogram" title="Link to this definition">¶</a></dt>
+<dd><p>Transforms a GDL program in text representation to a GDL program in object representation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – The GDL program in text representation</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The GDL program in object representation</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GDL</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PetriLyzerFunctionality.util.certification">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GraphClassification.PetriLyzerFunctionality.util.certification" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="Bottom">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PetriLyzerFunctionality.util.html">GraphClassification.PetriLyzerFunctionality.util package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PetriLyzerFunctionality.util.classification.html">GraphClassification.PetriLyzerFunctionality.util.classification package</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Julia Rennert.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

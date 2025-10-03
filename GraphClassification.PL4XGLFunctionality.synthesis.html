@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>GraphClassification.PL4XGLFunctionality.synthesis package &#8212; PetriLyzer  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=47202671" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=fce32b03" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="GraphClassification.PL4XGLFunctionality.util package" href="GraphClassification.PL4XGLFunctionality.util.html" />
+    <link rel="prev" title="GraphClassification.PL4XGLFunctionality package" href="GraphClassification.PL4XGLFunctionality.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>PetriLyzer  documentation</span></a></h1>
+        <h2 class="heading"><span>GraphClassification.PL4XGLFunctionality.synthesis package</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="Top">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PL4XGLFunctionality.html">GraphClassification.PL4XGLFunctionality package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PL4XGLFunctionality.util.html">GraphClassification.PL4XGLFunctionality.util package</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="graphclassification-pl4xglfunctionality-synthesis-package">
+<h1>GraphClassification.PL4XGLFunctionality.synthesis package<a class="headerlink" href="#graphclassification-pl4xglfunctionality-synthesis-package" title="Link to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC">
+<span id="graphclassification-pl4xglfunctionality-synthesis-btm-up-synthesis-gc-module"></span><h2>GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_graph">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.</span></span><span class="sig-name descname"><span class="pre">init_GDL_program_from_graph</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">concrete_graph</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_graph" title="Link to this definition">¶</a></dt>
+<dd><p>Initialize a GDL program from a given concrete graph.</p>
+<section id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>data<span class="classifier">Data</span></dt><dd><p>The data object</p>
+</dd>
+<dt>concrete_graph<span class="classifier">tuple</span></dt><dd><p>The concrete graph</p>
+</dd>
+</dl>
+</section>
+<section id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>GDL</dt><dd><p>The initialized GDL program</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_idx">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.</span></span><span class="sig-name descname"><span class="pre">init_GDL_program_from_idx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">graph_idx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_idx" title="Link to this definition">¶</a></dt>
+<dd><p>Initialize a GDL program with node intervals and edge intervals from the given graph index.</p>
+<section id="id1">
+<h3>Parameters<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>data<span class="classifier">Data</span></dt><dd><p>The data object</p>
+</dd>
+<dt>graph_idx<span class="classifier">int</span></dt><dd><p>The index of the graph</p>
+</dd>
+</dl>
+</section>
+<section id="id2">
+<h3>Returns<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>GDL</dt><dd><p>The initialized GDL program</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.learn_a_GDL_program">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.</span></span><span class="sig-name descname"><span class="pre">learn_a_GDL_program</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.learn_a_GDL_program" title="Link to this definition">¶</a></dt>
+<dd><p>This function takes a data object and tries to learn a GDL program that describes the given graph.</p>
+<section id="id3">
+<h3>Parameters<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>data<span class="classifier">Data</span></dt><dd><p>The data object</p>
+</dd>
+</dl>
+</section>
+<section id="id4">
+<h3>Returns<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>set</dt><dd><p>A set of learned tuples. Each tuple contains the target label, the learned GDL program, the score, and a set of chosen graphs.</p>
+</dd>
+</dl>
+</section>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.synthesis.generalize">
+<span id="graphclassification-pl4xglfunctionality-synthesis-generalize-module"></span><h2>GraphClassification.PL4XGLFunctionality.synthesis.generalize module<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.synthesis.generalize" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">generalize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize" title="Link to this definition">¶</a></dt>
+<dd><p>Generalizes a GDL program by widening intervals and removing unreachable nodes and edges.</p>
+<p>This function takes a GDL program and a data object and returns the best GDL program obtained by generalizing the given GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be generalized.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The best GDL program obtained by generalizing the given GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_all">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">generalize_all</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">current_score</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_all" title="Link to this definition">¶</a></dt>
+<dd><p>Generalizes a GDL program by widening intervals of nodes and edges and removing unreachable nodes and edges.</p>
+<p>This function takes a GDL program, its current score, and a data object and returns the best GDL program obtained by generalizing the given GDL program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be generalized.</p></li>
+<li><p><strong>current_score</strong> (<em>float</em>) – The score of the given GDL program.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The best GDL program obtained by generalizing the given GDL program.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_edge">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">generalize_edge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">current_score</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_edge" title="Link to this definition">¶</a></dt>
+<dd><p>Generalize edges in a GDL program in a bottom-up manner.</p>
+<p>This function takes a GDL program, its current score, and a data object and returns the best GDL program obtained by generalizing edges in a bottom-up manner.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be processed.</p></li>
+<li><p><strong>current_score</strong> (<em>float</em>) – The score of the given GDL program.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The best GDL program obtained by generalizing edges in a bottom-up manner.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_node">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">generalize_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">current_score</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_node" title="Link to this definition">¶</a></dt>
+<dd><p>Generalize nodes in a GDL program in a bottom-up manner.</p>
+<p>This function takes a GDL program, its current score, and a data object and returns the best GDL program obtained by generalizing nodes in a bottom-up manner.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be processed.</p></li>
+<li><p><strong>current_score</strong> (<em>float</em>) – The score of the given GDL program.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The best GDL program obtained by generalizing nodes in a bottom-up manner.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_GDL_program_edges">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">process_GDL_program_edges</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_GDL_program_edges" title="Link to this definition">¶</a></dt>
+<dd><p>Process edges in a GDL program by only keeping edges that are reachable from the root node.</p>
+<p>This function takes a GDL program and returns the GDL program with unreachable edges removed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be processed.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The GDL program with unreachable edges removed.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_unreachable_nodes">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">process_unreachable_nodes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_unreachable_nodes" title="Link to this definition">¶</a></dt>
+<dd><p>Process unreachable nodes in a GDL program by setting its node intervals to empty.</p>
+<p>This function takes a GDL program and returns the GDL program with unreachable nodes having empty intervals.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be processed.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The GDL program with unreachable nodes having empty intervals.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="GraphClassification.PL4XGLFunctionality.synthesis.generalize.remove_edges">
+<span class="sig-prename descclassname"><span class="pre">GraphClassification.PL4XGLFunctionality.synthesis.generalize.</span></span><span class="sig-name descname"><span class="pre">remove_edges</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">GDL_program</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">current_score</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PL4XGLFunctionality.synthesis.generalize.remove_edges" title="Link to this definition">¶</a></dt>
+<dd><p>Removes edges from a GDL program in a bottom-up manner and returns the best GDL program obtained by removing edges.</p>
+<p>This function takes a GDL program, its current score, and a data object and returns the best GDL program obtained by removing edges in a bottom-up manner.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>GDL_program</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL"><em>GDL</em></a>) – The GDL program to be processed.</p></li>
+<li><p><strong>current_score</strong> (<em>float</em>) – The score of the given GDL program.</p></li>
+<li><p><strong>data</strong> (<a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data" title="GraphClassification.PL4XGLFunctionality.data_loader.Data"><em>Data</em></a>) – The data object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The best GDL program obtained by removing edges in a bottom-up manner.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL" title="GraphClassification.PL4XGLFunctionality.language.GDL">GDL</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-GraphClassification.PL4XGLFunctionality.synthesis">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-GraphClassification.PL4XGLFunctionality.synthesis" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="Bottom">
+      
+        <p>
+        «&#160;&#160;<a href="GraphClassification.PL4XGLFunctionality.html">GraphClassification.PL4XGLFunctionality package</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="GraphClassification.PL4XGLFunctionality.util.html">GraphClassification.PL4XGLFunctionality.util package</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Julia Rennert.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

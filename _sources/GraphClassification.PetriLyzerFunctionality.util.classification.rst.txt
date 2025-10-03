@@ -1,0 +1,21 @@
+GraphClassification.PetriLyzerFunctionality.util.classification package
+=======================================================================
+
+Submodules
+----------
+
+GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses module
+--------------------------------------------------------------------------------------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality.util.classification
+   :members:
+   :show-inheritance:
+   :undoc-members:

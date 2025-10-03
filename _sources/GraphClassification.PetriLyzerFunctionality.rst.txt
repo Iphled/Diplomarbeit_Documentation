@@ -1,0 +1,20 @@
+GraphClassification.PetriLyzerFunctionality package
+===================================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   GraphClassification.PetriLyzerFunctionality.loader
+   GraphClassification.PetriLyzerFunctionality.test
+   GraphClassification.PetriLyzerFunctionality.util
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PetriLyzerFunctionality
+   :members:
+   :show-inheritance:
+   :undoc-members:

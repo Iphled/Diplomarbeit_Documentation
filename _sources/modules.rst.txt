@@ -1,0 +1,7 @@
+cd GraphClassification
+======================
+
+.. toctree::
+   :maxdepth: 4
+
+   GraphClassification

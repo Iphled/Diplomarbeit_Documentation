@@ -1,0 +1,21 @@
+GraphClassification.util package
+================================
+
+Submodules
+----------
+
+GraphClassification.util.eval\_val module
+-----------------------------------------
+
+.. automodule:: GraphClassification.util.eval_val
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.util
+   :members:
+   :show-inheritance:
+   :undoc-members:

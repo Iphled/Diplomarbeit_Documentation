@@ -1,0 +1,21 @@
+GraphClassification.PL4XGLFunctionality.util package
+====================================================
+
+Submodules
+----------
+
+GraphClassification.PL4XGLFunctionality.util.eval\_val module
+-------------------------------------------------------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.util.eval_val
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: GraphClassification.PL4XGLFunctionality.util
+   :members:
+   :show-inheritance:
+   :undoc-members:
