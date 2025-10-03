@@ -187,19 +187,23 @@ target graph”</p>
 <dt class="sig sig-object py" id="GraphClassification.PetriLyzerFunctionality.test.compiler.CompilerTest.test_split_lines">
 <span class="sig-name descname"><span class="pre">test_split_lines</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#GraphClassification.PetriLyzerFunctionality.test.compiler.CompilerTest.test_split_lines" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
-<div><p>Test that the <cite>splitIntoLines</cite> function correctly splits the tokens, variables, and numbers from the following text
-“edge (x1,x2) &lt;.,(-2.5,3.5)&gt;</p>
+<div><p>Test that the <cite>splitIntoLines</cite> function correctly splits the tokens, variables, and numbers
+from the following text:</p>
+<p>“edge (x1,x2) &lt;.,(-2.5,3.5)&gt;</p>
 </div></blockquote>
 <p>node x1 &lt;(1,2)&gt;
 target graph”.</p>
 <blockquote>
-<div><p>The expected output is
-- tokens: [‘EDGE’, ‘PL’, ‘VAR’, ‘COMMA’, ‘VAR’, ‘PR’, ‘LESS’, ‘DOT’, ‘COMMA’, ‘PL’, ‘FLOAT’, ‘COMMA’, ‘FLOAT’, ‘PR’, ‘GREATER’],</p>
-<blockquote>
-<div><p>[‘NODE’, ‘VAR’, ‘LESS’, ‘PL’, ‘FLOAT’, ‘COMMA’, ‘FLOAT’, ‘PR’, ‘GREATER’],
-[‘TARGET’]</p>
-</div></blockquote>
+<div><p>The expected output is:</p>
 <ul class="simple">
+<li><dl class="simple">
+<dt>tokens: [‘EDGE’, ‘PL’, ‘VAR’, ‘COMMA’, ‘VAR’, ‘PR’, ‘LESS’, ‘DOT’, ‘COMMA’,</dt><dd><p>‘PL’, ‘FLOAT’, ‘COMMA’, ‘FLOAT’, ‘PR’, ‘GREATER’],
+[‘NODE’, ‘VAR’, ‘LESS’, ‘PL’, ‘FLOAT’, ‘COMMA’, ‘FLOAT’,
+‘PR’, ‘GREATER’],
+[‘TARGET’]</p>
+</dd>
+</dl>
+</li>
 <li><p>var: [‘x1’, ‘x2’], [‘x1’]</p></li>
 <li><p>num: [-2.5, 3.5], [1.0, 2.0]</p></li>
 </ul>
