@@ -1,811 +1,1062 @@
-<!DOCTYPE html>
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="#"><link rel="search" title="Search" href="search.html">
 
-<html lang="en" data-content_root="./">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; PetriLyzer  documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=47202671" />
-    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=fce32b03" />
-    <script src="_static/documentation_options.js?v=8a448e45"></script>
-    <script src="_static/doctools.js?v=9bcbadda"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Search" href="search.html" /> 
-  </head><body>
-      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
-          <span>PetriLyzer  documentation</span></a></h1>
-        <h2 class="heading"><span>Index</span></h2>
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 --><title>Index - PetriLyzer documentation</title>
+<link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">PetriLyzer  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
       </div>
-      <div class="topnav" role="navigation" aria-label="Top">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
       
-        <p>
-        <a class="uplink" href="index.html">Contents</a>
-        </p>
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">PetriLyzer  documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="GraphClassification.html">GraphClassification package</a><input aria-label="Toggle navigation of GraphClassification package" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.html">GraphClassification.PL4XGLFunctionality package</a><input aria-label="Toggle navigation of GraphClassification.PL4XGLFunctionality package" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.synthesis.html">GraphClassification.PL4XGLFunctionality.synthesis package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PL4XGLFunctionality.util.html">GraphClassification.PL4XGLFunctionality.util package</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.html">GraphClassification.PetriLyzerFunctionality package</a><input aria-label="Toggle navigation of GraphClassification.PetriLyzerFunctionality package" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.loader.html">GraphClassification.PetriLyzerFunctionality.loader package</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.util.html">GraphClassification.PetriLyzerFunctionality.util package</a><input aria-label="Toggle navigation of GraphClassification.PetriLyzerFunctionality.util package" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.util.certification.html">GraphClassification.PetriLyzerFunctionality.util.certification package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.util.classification.html">GraphClassification.PetriLyzerFunctionality.util.classification package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="GraphClassification.PetriLyzerFunctionality.util.gui.html">GraphClassification.PetriLyzerFunctionality.util.gui package</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
 
       </div>
-      <div class="content" role="main">
-        
-        
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          
+<section class="genindex-section">
+  <h1 id="index">Index</h1>
+  <div class="genindex-jumpbox"><a href="#A"><strong>A</strong></a> | <a href="#C"><strong>C</strong></a> | <a href="#D"><strong>D</strong></a> | <a href="#E"><strong>E</strong></a> | <a href="#F"><strong>F</strong></a> | <a href="#G"><strong>G</strong></a> | <a href="#H"><strong>H</strong></a> | <a href="#I"><strong>I</strong></a> | <a href="#L"><strong>L</strong></a> | <a href="#M"><strong>M</strong></a> | <a href="#N"><strong>N</strong></a> | <a href="#O"><strong>O</strong></a> | <a href="#P"><strong>P</strong></a> | <a href="#R"><strong>R</strong></a> | <a href="#S"><strong>S</strong></a> | <a href="#T"><strong>T</strong></a> | <a href="#V"><strong>V</strong></a> | <a href="#X"><strong>X</strong></a></div>
+</section>
+<section id="A" class="genindex-section">
+  <h2>A</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.A">A (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+</li>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.About">About() (in module GraphClassification.PetriLyzer)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.addEdge">addEdge() (GraphClassification.PL4XGLFunctionality.connected.Graph method)</a>
+</li>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.addPostcondition">addPostcondition() (in module GraphClassification.PetriLyzer)</a>
+</li>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.addPrecondition">addPrecondition() (in module GraphClassification.PetriLyzer)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h1 id="index">Index</h1>
+<section id="C" class="genindex-section">
+  <h2>C</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate">Certificate (class in GraphClassification.PetriLyzerFunctionality.util.certification.Certificate)</a>
+</li>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.chosen_depth">chosen_depth (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationGoal">ClassificationGoal (class in GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.classificationToText">classificationToText() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes">ClassificationTypes (class in GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.learn.clean">clean() (in module GraphClassification.learn)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.clear">clear() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+</li>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.concrete_edge_belong_edge_var">concrete_edge_belong_edge_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+</li>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.concrete_node_belong_node_var">concrete_node_belong_node_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+</li>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.ContactUs">ContactUs() (in module GraphClassification.PetriLyzer)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
 
-<div class="genindex-jumpbox">
- <a href="#A"><strong>A</strong></a>
- | <a href="#C"><strong>C</strong></a>
- | <a href="#D"><strong>D</strong></a>
- | <a href="#E"><strong>E</strong></a>
- | <a href="#F"><strong>F</strong></a>
- | <a href="#G"><strong>G</strong></a>
- | <a href="#H"><strong>H</strong></a>
- | <a href="#I"><strong>I</strong></a>
- | <a href="#L"><strong>L</strong></a>
- | <a href="#M"><strong>M</strong></a>
- | <a href="#N"><strong>N</strong></a>
- | <a href="#O"><strong>O</strong></a>
- | <a href="#P"><strong>P</strong></a>
- | <a href="#R"><strong>R</strong></a>
- | <a href="#S"><strong>S</strong></a>
- | <a href="#T"><strong>T</strong></a>
- | <a href="#V"><strong>V</strong></a>
- | <a href="#X"><strong>X</strong></a>
- 
-</div>
-<h2 id="A">A</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.A">A (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+<section id="D" class="genindex-section">
+  <h2>D</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data">Data (class in GraphClassification.PL4XGLFunctionality.data_loader)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.About">About() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.deletePostcondition">deletePostcondition() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.addEdge">addEdge() (GraphClassification.PL4XGLFunctionality.connected.Graph method)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.deletePrecondition">deletePrecondition() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.addPostcondition">addPostcondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.depleteInterval">depleteInterval() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.addPrecondition">addPrecondition() (in module GraphClassification.PetriLyzer)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.DFS">DFS() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-  </ul></td>
-</tr></table>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayPetrinet">displayPetrinet() (in module GraphClassification.PetriLyzerFunctionality.util.gui.Display)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.displayPetrinetPDF">displayPetrinetPDF() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayProgram">displayProgram() (in module GraphClassification.PetriLyzerFunctionality.util.gui.Display)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="C">C</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate">Certificate (class in GraphClassification.PetriLyzerFunctionality.util.certification.Certificate)</a>
+<section id="E" class="genindex-section">
+  <h2>E</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.eval_single.eval_acc">eval_acc() (in module GraphClassification.PL4XGLFunctionality.eval_single)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.chosen_depth">chosen_depth (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.explainability.eval_acc_explainability">eval_acc_explainability() (in module GraphClassification.PL4XGLFunctionality.explainability)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationGoal">ClassificationGoal (class in GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_edge_var">eval_edge_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.classificationToText">classificationToText() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_DFS">eval_GDL_program_DFS() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes">ClassificationTypes (class in GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC">eval_GDL_program_on_graphs_GC() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.learn.clean">clean() (in module GraphClassification.learn)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score">eval_GDL_program_on_graphs_GC_Score() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.clear">clear() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score_graphs">eval_GDL_program_on_graphs_GC_Score_graphs() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.concrete_edge_belong_edge_var">concrete_edge_belong_edge_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_test_graphs">eval_GDL_program_on_graphs_GC_test_graphs() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.concrete_node_belong_node_var">concrete_node_belong_node_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_node_var">eval_node_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.ContactUs">ContactUs() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_single_node_GDL_program_on_graphs">eval_single_node_GDL_program_on_graphs() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-  </ul></td>
-</tr></table>
+        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.eval_validation">eval_validation() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.evaluate">evaluate() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+</li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_globally">evaluate_globally() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_single_graph">evaluate_single_graph() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateEdge">evaluateEdge() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateLine">evaluateLine() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateNode">evaluateNode() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+</li>
+        <li><a href="GraphClassification.html#GraphClassification.learn.execute_command_bu">execute_command_bu() (in module GraphClassification.learn)</a>
+</li>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.exist_subgraph_DFS">exist_subgraph_DFS() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+</li>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.ExplainClassification">ExplainClassification() (in module GraphClassification.PetriLyzer)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extend">extend() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL">ExtendedGDL (class in GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extendOrEvaluate">extendOrEvaluate() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+</li>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.extract_graph">extract_graph() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+</li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.Display.extractInfo">extractInfo() (in module GraphClassification.PetriLyzerFunctionality.util.gui.Display)</a>
+</li>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="D">D</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data">Data (class in GraphClassification.PL4XGLFunctionality.data_loader)</a>
+<section id="F" class="genindex-section">
+  <h2>F</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_postcondition_list">fill_postcondition_list() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.deletePostcondition">deletePostcondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_precondition_list">fill_precondition_list() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.deletePrecondition">deletePrecondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_default_and_fitted_label">find_default_and_fitted_label() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.depleteInterval">depleteInterval() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.find_matching_subgraph">find_matching_subgraph() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.DFS">DFS() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_max">find_max() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayPetrinet">displayPetrinet() (in module GraphClassification.PetriLyzerFunctionality.util.gui.Display)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.find_subgraph_DFS">find_subgraph_DFS() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.displayPetrinetPDF">displayPetrinetPDF() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_val_threshold">find_val_threshold() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.Display.displayProgram">displayProgram() (in module GraphClassification.PetriLyzerFunctionality.util.gui.Display)</a>
-</li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="E">E</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.eval_single.eval_acc">eval_acc() (in module GraphClassification.PL4XGLFunctionality.eval_single)</a>
+<section id="G" class="genindex-section">
+  <h2>G</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL">GDL (class in GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.explainability.eval_acc_explainability">eval_acc_explainability() (in module GraphClassification.PL4XGLFunctionality.explainability)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL_program_size">GDL_program_size() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_edge_var">eval_edge_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL_program_to_Str">GDL_program_to_Str() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_DFS">eval_GDL_program_DFS() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize">generalize() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC">eval_GDL_program_on_graphs_GC() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_all">generalize_all() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score">eval_GDL_program_on_graphs_GC_Score() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_edge">generalize_edge() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_Score_graphs">eval_GDL_program_on_graphs_GC_Score_graphs() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_node">generalize_node() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_GDL_program_on_graphs_GC_test_graphs">eval_GDL_program_on_graphs_GC_test_graphs() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.get_edge_var_case_and_update_sub_GDL_program">get_edge_var_case_and_update_sub_GDL_program() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_node_var">eval_node_var() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.get_programs">get_programs() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.eval_single_node_GDL_program_on_graphs">eval_single_node_GDL_program_on_graphs() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.getEdgeMapping">getEdgeMapping() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.eval_validation">eval_validation() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.getExplanationFrames">getExplanationFrames() (in module GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.evaluate">evaluate() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.getInterval">getInterval() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_globally">evaluate_globally() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph">Graph (class in GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.evaluate_single_graph">evaluate_single_graph() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.graph_is_connected">graph_is_connected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateEdge">evaluateEdge() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.graph_is_fully_connected">graph_is_fully_connected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateLine">evaluateLine() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graph_to_data">graph_to_data() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.evaluateNode">evaluateNode() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.graph_to_label">graph_to_label (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.learn.execute_command_bu">execute_command_bu() (in module GraphClassification.learn)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.exist_subgraph_DFS">exist_subgraph_DFS() (in module GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.ExplainClassification">ExplainClassification() (in module GraphClassification.PetriLyzer)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extend">extend() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL">ExtendedGDL (class in GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.extendOrEvaluate">extendOrEvaluate() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.extract_graph">extract_graph() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.Display.extractInfo">extractInfo() (in module GraphClassification.PetriLyzerFunctionality.util.gui.Display)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="F">F</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_postcondition_list">fill_postcondition_list() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.fill_precondition_list">fill_precondition_list() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_default_and_fitted_label">find_default_and_fitted_label() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.find_matching_subgraph">find_matching_subgraph() (in module GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_max">find_max() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.find_subgraph_DFS">find_subgraph_DFS() (in module GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.find_val_threshold">find_val_threshold() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
-</li>
-  </ul></td>
-</tr></table>
-
-<h2 id="G">G</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL">GDL (class in GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL_program_size">GDL_program_size() (in module GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.GDL_program_to_Str">GDL_program_to_Str() (in module GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize">generalize() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_all">generalize_all() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_edge">generalize_edge() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.generalize_node">generalize_node() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.get_edge_var_case_and_update_sub_GDL_program">get_edge_var_case_and_update_sub_GDL_program() (in module GraphClassification.PL4XGLFunctionality.language)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.get_programs">get_programs() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.getEdgeMapping">getEdgeMapping() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.getExplanationFrames">getExplanationFrames() (in module GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.getInterval">getInterval() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph">Graph (class in GraphClassification.PL4XGLFunctionality.connected)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.graph_is_connected">graph_is_connected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.graph_is_fully_connected">graph_is_fully_connected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
-</li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graph_to_data">graph_to_data() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
-</li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.graph_to_label">graph_to_label (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
-</li>
-      <li>
+        <li>
     GraphClassification
 
-      <ul>
-        <li><a href="GraphClassification.html#module-GraphClassification">module</a>
+        <ul>
+          <li><a href="GraphClassification.html#module-GraphClassification">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.learn
 
-      <ul>
-        <li><a href="GraphClassification.html#module-GraphClassification.learn">module</a>
+        <ul>
+          <li><a href="GraphClassification.html#module-GraphClassification.learn">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.learn_from_instance_bu
 
-      <ul>
-        <li><a href="GraphClassification.html#module-GraphClassification.learn_from_instance_bu">module</a>
+        <ul>
+          <li><a href="GraphClassification.html#module-GraphClassification.learn_from_instance_bu">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzer
 
-      <ul>
-        <li><a href="GraphClassification.html#module-GraphClassification.PetriLyzer">module</a>
+        <ul>
+          <li><a href="GraphClassification.html#module-GraphClassification.PetriLyzer">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.html#module-GraphClassification.PetriLyzerFunctionality">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.html#module-GraphClassification.PetriLyzerFunctionality">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.loader
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.html#module-GraphClassification.PetriLyzerFunctionality.util">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.html#module-GraphClassification.PetriLyzerFunctionality.util">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.certification
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.certification.Certificate
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.Certificate">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.Certificate">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate">module</a>
 </li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.classification
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.gui
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.gui.Display
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.Display">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.Display">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame
 
-      <ul>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame">module</a>
+        <ul>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.connected
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.connected">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.connected">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.data_loader
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.data_loader">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.data_loader">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.eval_single
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.eval_single">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.eval_single">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.explainability
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.explainability">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.explainability">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.language
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.language">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.language">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.store_predictions
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.store_predictions">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.store_predictions">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.synthesis
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.synthesis.generalize
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.generalize">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.generalize">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.util
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.PL4XGLFunctionality.util.eval_val
 
-      <ul>
-        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util.eval_val">module</a>
+        <ul>
+          <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util.eval_val">module</a>
 </li>
-      </ul></li>
-      <li>
+        </ul></li>
+        <li>
     GraphClassification.tryout
 
-      <ul>
-        <li><a href="GraphClassification.html#module-GraphClassification.tryout">module</a>
+        <ul>
+          <li><a href="GraphClassification.html#module-GraphClassification.tryout">module</a>
 </li>
-      </ul></li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graphInPreconditions">graphInPreconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        </ul></li>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.graphInPreconditions">graphInPreconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes.Graphs">Graphs (GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes attribute)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes.Graphs">Graphs (GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes attribute)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.graphs">graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.graphs">graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="H">H</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.Help">Help() (in module GraphClassification.PetriLyzer)</a>
+<section id="H" class="genindex-section">
+  <h2>H</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.Help">Help() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="I">I</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.idx_node_map">idx_node_map (GraphClassification.PL4XGLFunctionality.connected.Graph attribute)</a>
+<section id="I" class="genindex-section">
+  <h2>I</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.idx_node_map">idx_node_map (GraphClassification.PL4XGLFunctionality.connected.Graph attribute)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_graph">init_GDL_program_from_graph() (in module GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_graph">init_GDL_program_from_graph() (in module GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_idx">init_GDL_program_from_idx() (in module GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.init_GDL_program_from_idx">init_GDL_program_from_idx() (in module GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.intervalsOverlap">intervalsOverlap() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.intervalsOverlap">intervalsOverlap() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.is_connected">is_connected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.is_connected">is_connected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.is_filled">is_filled() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.is_filled">is_filled() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.IsConnected">IsConnected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.IsConnected">IsConnected() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="L">L</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.labelInPostconditions">labelInPostconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+<section id="L" class="genindex-section">
+  <h2>L</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.labelInPostconditions">labelInPostconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.learn_from_instance_bu.learn">learn() (in module GraphClassification.learn_from_instance_bu)</a>
+        <li><a href="GraphClassification.html#GraphClassification.learn_from_instance_bu.learn">learn() (in module GraphClassification.learn_from_instance_bu)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.learn_a_GDL_program">learn_a_GDL_program() (in module GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC.learn_a_GDL_program">learn_a_GDL_program() (in module GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.lex">lex() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.lex">lex() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_BACE">load_BACE() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_BACE">load_BACE() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_BBBP">load_BBBP() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_BBBP">load_BBBP() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_HIV">load_HIV() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_HIV">load_HIV() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_MUTAG">load_MUTAG() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_MUTAG">load_MUTAG() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_Petri_Nets">load_Petri_Nets() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.load_Petri_Nets">load_Petri_Nets() (in module GraphClassification.PL4XGLFunctionality.data_loader)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.loadCertificate">loadCertificate() (in module GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.loadCertificate">loadCertificate() (in module GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.loadPetrinetFromFile">loadPetrinetFromFile() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.loadPetrinetFromFile">loadPetrinetFromFile() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="M">M</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.mail_me">mail_me() (in module GraphClassification.PetriLyzer)</a>
+<section id="M" class="genindex-section">
+  <h2>M</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.mail_me">mail_me() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.map">map() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.map">map() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.map_val_graphs_to_scores">map_val_graphs_to_scores() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.map_val_graphs_to_scores">map_val_graphs_to_scores() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
 </li>
-      <li>
+        <li>
     module
 
-      <ul>
-        <li><a href="GraphClassification.html#module-GraphClassification">GraphClassification</a>
+        <ul>
+          <li><a href="GraphClassification.html#module-GraphClassification">GraphClassification</a>
 </li>
-        <li><a href="GraphClassification.html#module-GraphClassification.learn">GraphClassification.learn</a>
+          <li><a href="GraphClassification.html#module-GraphClassification.learn">GraphClassification.learn</a>
 </li>
-        <li><a href="GraphClassification.html#module-GraphClassification.learn_from_instance_bu">GraphClassification.learn_from_instance_bu</a>
+          <li><a href="GraphClassification.html#module-GraphClassification.learn_from_instance_bu">GraphClassification.learn_from_instance_bu</a>
 </li>
-        <li><a href="GraphClassification.html#module-GraphClassification.PetriLyzer">GraphClassification.PetriLyzer</a>
+          <li><a href="GraphClassification.html#module-GraphClassification.PetriLyzer">GraphClassification.PetriLyzer</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.html#module-GraphClassification.PetriLyzerFunctionality">GraphClassification.PetriLyzerFunctionality</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.html#module-GraphClassification.PetriLyzerFunctionality">GraphClassification.PetriLyzerFunctionality</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader">GraphClassification.PetriLyzerFunctionality.loader</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader">GraphClassification.PetriLyzerFunctionality.loader</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader">GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader">GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#module-GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader">GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.html#module-GraphClassification.PetriLyzerFunctionality.util">GraphClassification.PetriLyzerFunctionality.util</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.html#module-GraphClassification.PetriLyzerFunctionality.util">GraphClassification.PetriLyzerFunctionality.util</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification">GraphClassification.PetriLyzerFunctionality.util.certification</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification">GraphClassification.PetriLyzerFunctionality.util.certification</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.Certificate">GraphClassification.PetriLyzerFunctionality.util.certification.Certificate</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.Certificate">GraphClassification.PetriLyzerFunctionality.util.certification.Certificate</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL">GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL">GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#module-GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate">GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification">GraphClassification.PetriLyzerFunctionality.util.classification</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification">GraphClassification.PetriLyzerFunctionality.util.classification</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses">GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#module-GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses">GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui">GraphClassification.PetriLyzerFunctionality.util.gui</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui">GraphClassification.PetriLyzerFunctionality.util.gui</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.Display">GraphClassification.PetriLyzerFunctionality.util.gui.Display</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.Display">GraphClassification.PetriLyzerFunctionality.util.gui.Display</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry">GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry">GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry</a>
 </li>
-        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame">GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame</a>
+          <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#module-GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame">GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality">GraphClassification.PL4XGLFunctionality</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality">GraphClassification.PL4XGLFunctionality</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.connected">GraphClassification.PL4XGLFunctionality.connected</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.connected">GraphClassification.PL4XGLFunctionality.connected</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.data_loader">GraphClassification.PL4XGLFunctionality.data_loader</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.data_loader">GraphClassification.PL4XGLFunctionality.data_loader</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.eval_single">GraphClassification.PL4XGLFunctionality.eval_single</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.eval_single">GraphClassification.PL4XGLFunctionality.eval_single</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.explainability">GraphClassification.PL4XGLFunctionality.explainability</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.explainability">GraphClassification.PL4XGLFunctionality.explainability</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.language">GraphClassification.PL4XGLFunctionality.language</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.language">GraphClassification.PL4XGLFunctionality.language</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.store_predictions">GraphClassification.PL4XGLFunctionality.store_predictions</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.html#module-GraphClassification.PL4XGLFunctionality.store_predictions">GraphClassification.PL4XGLFunctionality.store_predictions</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis">GraphClassification.PL4XGLFunctionality.synthesis</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis">GraphClassification.PL4XGLFunctionality.synthesis</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC">GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC">GraphClassification.PL4XGLFunctionality.synthesis.btm_up_synthesis_GC</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.generalize">GraphClassification.PL4XGLFunctionality.synthesis.generalize</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#module-GraphClassification.PL4XGLFunctionality.synthesis.generalize">GraphClassification.PL4XGLFunctionality.synthesis.generalize</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util">GraphClassification.PL4XGLFunctionality.util</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util">GraphClassification.PL4XGLFunctionality.util</a>
 </li>
-        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util.eval_val">GraphClassification.PL4XGLFunctionality.util.eval_val</a>
+          <li><a href="GraphClassification.PL4XGLFunctionality.util.html#module-GraphClassification.PL4XGLFunctionality.util.eval_val">GraphClassification.PL4XGLFunctionality.util.eval_val</a>
 </li>
-        <li><a href="GraphClassification.html#module-GraphClassification.tryout">GraphClassification.tryout</a>
+          <li><a href="GraphClassification.html#module-GraphClassification.tryout">GraphClassification.tryout</a>
 </li>
-      </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.my_DFS">my_DFS() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+        </ul></li>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.my_DFS">my_DFS() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="N">N</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.NewCertification">NewCertification() (in module GraphClassification.PetriLyzer)</a>
+<section id="N" class="genindex-section">
+  <h2>N</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.NewCertification">NewCertification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.node_idx_map">node_idx_map (GraphClassification.PL4XGLFunctionality.connected.Graph attribute)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.node_idx_map">node_idx_map (GraphClassification.PL4XGLFunctionality.connected.Graph attribute)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.nodes_to_edge">nodes_to_edge (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.nodes_to_edge">nodes_to_edge (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="O">O</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.OpenCertification">OpenCertification() (in module GraphClassification.PetriLyzer)</a>
+<section id="O" class="genindex-section">
+  <h2>O</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.OpenCertification">OpenCertification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.OpenFile">OpenFile() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.OpenFile">OpenFile() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.OpenSettings">OpenSettings() (in module GraphClassification.PetriLyzer)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.OpenSettings">OpenSettings() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.overlap">overlap() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.overlap">overlap() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="P">P</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.parse">parse() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+<section id="P" class="genindex-section">
+  <h2>P</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.parse">parse() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.PetrinetGraph">PetrinetGraph (class in GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.PetrinetGraph">PetrinetGraph (class in GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes.PetriNets">PetriNets (GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes attribute)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes.PetriNets">PetriNets (GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.ClassificationTypes attribute)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.petrinetToGraph">petrinetToGraph() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.petrinetToGraph">petrinetToGraph() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.pred_node_to_nodes">pred_node_to_nodes (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.pred_node_to_nodes">pred_node_to_nodes (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.prepare">prepare() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.prepare">prepare() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.print_GDL_program">print_GDL_program() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.print_GDL_program">print_GDL_program() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_GDL_program_edges">process_GDL_program_edges() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_GDL_program_edges">process_GDL_program_edges() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_unreachable_nodes">process_unreachable_nodes() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.process_unreachable_nodes">process_unreachable_nodes() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.programToText">programToText() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.programToText">programToText() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="R">R</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.remove_edges">remove_edges() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
+<section id="R" class="genindex-section">
+  <h2>R</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.synthesis.html#GraphClassification.PL4XGLFunctionality.synthesis.generalize.remove_edges">remove_edges() (in module GraphClassification.PL4XGLFunctionality.synthesis.generalize)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.remove_unreachable_nodes">remove_unreachable_nodes() (in module GraphClassification.PL4XGLFunctionality.language)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.language.remove_unreachable_nodes">remove_unreachable_nodes() (in module GraphClassification.PL4XGLFunctionality.language)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.rtfm">rtfm() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.rtfm">rtfm() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.RunClassification">RunClassification() (in module GraphClassification.PetriLyzer)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.RunClassification">RunClassification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.RunGlobalCertification">RunGlobalCertification() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.RunGlobalCertification">RunGlobalCertification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.RunLocalCertification">RunLocalCertification() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.RunLocalCertification">RunLocalCertification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="S">S</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.saveCertificate">saveCertificate() (in module GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader)</a>
+<section id="S" class="genindex-section">
+  <h2>S</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader.saveCertificate">saveCertificate() (in module GraphClassification.PetriLyzerFunctionality.loader.CertificationLoader)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.SaveCertification">SaveCertification() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.SaveCertification">SaveCertification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.SaveClassification">SaveClassification() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.SaveClassification">SaveClassification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.saveClassification">saveClassification() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.loader.html#GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader.saveClassification">saveClassification() (in module GraphClassification.PetriLyzerFunctionality.loader.PetrinetLoader)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.savePostcondition">savePostcondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.savePostcondition">savePostcondition() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.savePrecondition">savePrecondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.savePrecondition">savePrecondition() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.search_hyperparameters">search_hyperparameters() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.util.html#GraphClassification.PL4XGLFunctionality.util.eval_val.search_hyperparameters">search_hyperparameters() (in module GraphClassification.PL4XGLFunctionality.util.eval_val)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.SelectClassification">SelectClassification() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.SelectClassification">SelectClassification() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.selectPostcondition">selectPostcondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.selectPostcondition">selectPostcondition() (in module GraphClassification.PetriLyzer)</a>
 </li>
-      <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.selectPrecondition">selectPrecondition() (in module GraphClassification.PetriLyzer)</a>
+        <li><a href="GraphClassification.html#GraphClassification.PetriLyzer.selectPrecondition">selectPrecondition() (in module GraphClassification.PetriLyzer)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.separate_a_graph">separate_a_graph() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.separate_a_graph">separate_a_graph() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.separate_graph">separate_graph() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.separate_graph">separate_graph() (in module GraphClassification.PL4XGLFunctionality.connected)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometry">setGeometry() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometry">setGeometry() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometryFromParent">setGeometryFromParent() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry.setGeometryFromParent">setGeometryFromParent() (in module GraphClassification.PetriLyzerFunctionality.util.gui.GUI_geometry)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPostconditions">setPostconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPostconditions">setPostconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditionNames">setPreconditionNames() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditionNames">setPreconditionNames() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditions">setPreconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.setPreconditions">setPreconditions() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.sortByPriority">sortByPriority() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate.sortByPriority">sortByPriority() (GraphClassification.PetriLyzerFunctionality.util.certification.Certificate.Certificate method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.splitIntoLines">splitIntoLines() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.splitIntoLines">splitIntoLines() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.store_predictions.store_predictions">store_predictions() (in module GraphClassification.PL4XGLFunctionality.store_predictions)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.store_predictions.store_predictions">store_predictions() (in module GraphClassification.PL4XGLFunctionality.store_predictions)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.succ_node_to_nodes">succ_node_to_nodes (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.succ_node_to_nodes">succ_node_to_nodes (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="T">T</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.takeNodes">takeNodes() (GraphClassification.PL4XGLFunctionality.connected.Graph method)</a>
+<section id="T" class="genindex-section">
+  <h2>T</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.connected.Graph.takeNodes">takeNodes() (GraphClassification.PL4XGLFunctionality.connected.Graph method)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.test_graphs">test_graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.test_graphs">test_graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.textToGDLprogram">textToGDLprogram() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate.textToGDLprogram">textToGDLprogram() (in module GraphClassification.PetriLyzerFunctionality.util.certification.ParseCertificate)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame.toggle">toggle() (GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame method)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame.toggle">toggle() (GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame method)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame">ToggledFrame (class in GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.gui.html#GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame.ToggledFrame">ToggledFrame (class in GraphClassification.PetriLyzerFunctionality.util.gui.ToggledFrame)</a>
 </li>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.train_graphs">train_graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.train_graphs">train_graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.tuplesToClassificationGoals">tuplesToClassificationGoals() (in module GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.classification.html#GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses.tuplesToClassificationGoals">tuplesToClassificationGoals() (in module GraphClassification.PetriLyzerFunctionality.util.classification.ClassificationClasses)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="V">V</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.val_graphs">val_graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+<section id="V" class="genindex-section">
+  <h2>V</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.val_graphs">val_graphs (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.validMapping">validMapping() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PetriLyzerFunctionality.util.certification.html#GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL.validMapping">validMapping() (GraphClassification.PetriLyzerFunctionality.util.certification.ExtendedGDL.ExtendedGDL method)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
-<h2 id="X">X</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.X_edge">X_edge (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+<section id="X" class="genindex-section">
+  <h2>X</h2>
+  <table style="width: 100%" class="indextable genindextable"><tr>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.X_edge">X_edge (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.X_node">X_node (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
+    </ul></td>
+    <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="GraphClassification.PL4XGLFunctionality.html#GraphClassification.PL4XGLFunctionality.data_loader.Data.X_node">X_node (GraphClassification.PL4XGLFunctionality.data_loader.Data attribute)</a>
 </li>
-  </ul></td>
-</tr></table>
+    </ul></td>
+  </tr></table>
+</section>
 
 
-
+        </article>
       </div>
-      <div class="bottomnav" role="navigation" aria-label="Bottom">
-      
-        <p>
-        <a class="uplink" href="index.html">Contents</a>
-        </p>
-
-      </div>
-
-    <div class="footer" role="contentinfo">
-    &#169; Copyright 2025, Julia Rennert.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2025, Julia Rennert
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
     </div>
-  </body>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8a448e45"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
 </html>

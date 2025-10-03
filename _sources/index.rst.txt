@@ -59,7 +59,3 @@ For a deeper understanding of the code, the following documentation details the 
    :caption: Contents:
 
    GraphClassification
-   GraphClassification.PetriLyzerFunctionality
-   GraphClassification.PetriLyzerFunctionality.loader
-   GraphClassification.PetriLyzerFunctionality.util
-   modules
